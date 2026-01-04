@@ -9,3 +9,4 @@ graphs_for_gear.json
 *.png
 test_*.json
 *_progress.json
+dataset_with_distortions.csv
