@@ -1,0 +1,11 @@
+.env
+kaggle_mental_health.csv
+.venv/
+__pycache__/
+*.pyc
+dataset_with_distortions.json
+synthetic_longitudinal_data.json
+graphs_for_gear.json
+*.png
+test_*.json
+*_progress.json

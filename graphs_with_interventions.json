@@ -1,0 +1,6045 @@
+{
+  "personal_graphs": {
+    "user_78957": {
+      "nodes": [
+        {
+          "id": "all_or_nothing_thinking",
+          "type": "distortion",
+          "occurrences": 54,
+          "total_confidence": 46.97
+        },
+        {
+          "id": "fortune_telling",
+          "type": "distortion",
+          "occurrences": 60,
+          "total_confidence": 52.690000000000026
+        },
+        {
+          "id": "labeling",
+          "type": "distortion",
+          "occurrences": 23,
+          "total_confidence": 20.46
+        },
+        {
+          "id": "overgeneralization",
+          "type": "distortion",
+          "occurrences": 59,
+          "total_confidence": 53.050000000000004
+        },
+        {
+          "id": "mental_filter",
+          "type": "distortion",
+          "occurrences": 30,
+          "total_confidence": 23.830000000000005
+        },
+        {
+          "id": "hopelessness",
+          "type": "distortion",
+          "occurrences": 2,
+          "total_confidence": 1.82
+        },
+        {
+          "id": "emotional_reasoning",
+          "type": "distortion",
+          "occurrences": 5,
+          "total_confidence": 4.03
+        },
+        {
+          "id": "catastrophizing",
+          "type": "distortion",
+          "occurrences": 26,
+          "total_confidence": 23.04
+        },
+        {
+          "id": "suicidal_ideation",
+          "type": "distortion",
+          "occurrences": 1,
+          "total_confidence": 0.95
+        },
+        {
+          "id": "thought_records",
+          "type": "intervention",
+          "uses": 40,
+          "avg_severity_change": -0.0053846153846153835,
+          "effectiveness_score": 0.0053846153846153835
+        },
+        {
+          "id": "mind_reading",
+          "type": "distortion",
+          "occurrences": 30,
+          "total_confidence": 26.069999999999997
+        },
+        {
+          "id": "personalization",
+          "type": "distortion",
+          "occurrences": 22,
+          "total_confidence": 18.700000000000003
+        },
+        {
+          "id": "jumping_to_conclusions",
+          "type": "distortion",
+          "occurrences": 6,
+          "total_confidence": 5.2299999999999995
+        },
+        {
+          "id": "rumination",
+          "type": "distortion",
+          "occurrences": 2,
+          "total_confidence": 1.95
+        },
+        {
+          "id": "discounting_the_positive",
+          "type": "distortion",
+          "occurrences": 2,
+          "total_confidence": 1.7000000000000002
+        }
+      ],
+      "edges": [
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "fortune_telling",
+          "weight": 45,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "labeling",
+          "weight": 18,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "overgeneralization",
+          "weight": 30,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "mental_filter",
+          "weight": 34,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "hopelessness",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "emotional_reasoning",
+          "weight": 6,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "catastrophizing",
+          "weight": 25,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "all_or_nothing_thinking",
+          "weight": 20,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "mind_reading",
+          "weight": 15,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "personalization",
+          "weight": 20,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "jumping_to_conclusions",
+          "weight": 4,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "labeling",
+          "weight": 25,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "overgeneralization",
+          "weight": 29,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "mental_filter",
+          "weight": 25,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "hopelessness",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "emotional_reasoning",
+          "weight": 5,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "catastrophizing",
+          "weight": 22,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "all_or_nothing_thinking",
+          "weight": 34,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "fortune_telling",
+          "weight": 27,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "mind_reading",
+          "weight": 15,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "personalization",
+          "weight": 23,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "labeling",
+          "target": "overgeneralization",
+          "weight": 6,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "labeling",
+          "target": "mental_filter",
+          "weight": 9,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "labeling",
+          "target": "emotional_reasoning",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "labeling",
+          "target": "catastrophizing",
+          "weight": 5,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "labeling",
+          "target": "all_or_nothing_thinking",
+          "weight": 14,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "labeling",
+          "target": "fortune_telling",
+          "weight": 10,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "labeling",
+          "target": "labeling",
+          "weight": 6,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "labeling",
+          "target": "mind_reading",
+          "weight": 5,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "labeling",
+          "target": "personalization",
+          "weight": 6,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "mental_filter",
+          "weight": 41,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "hopelessness",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "emotional_reasoning",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "catastrophizing",
+          "weight": 28,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "all_or_nothing_thinking",
+          "weight": 49,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "fortune_telling",
+          "weight": 60,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "labeling",
+          "weight": 27,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "overgeneralization",
+          "weight": 24,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "mind_reading",
+          "weight": 20,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "personalization",
+          "weight": 27,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "jumping_to_conclusions",
+          "weight": 5,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mental_filter",
+          "target": "hopelessness",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mental_filter",
+          "target": "emotional_reasoning",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mental_filter",
+          "target": "catastrophizing",
+          "weight": 12,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mental_filter",
+          "target": "fortune_telling",
+          "weight": 16,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mental_filter",
+          "target": "overgeneralization",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mental_filter",
+          "target": "personalization",
+          "weight": 7,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mental_filter",
+          "target": "jumping_to_conclusions",
+          "weight": 4,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mental_filter",
+          "target": "labeling",
+          "weight": 6,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mental_filter",
+          "target": "all_or_nothing_thinking",
+          "weight": 9,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mental_filter",
+          "target": "mind_reading",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "emotional_reasoning",
+          "target": "catastrophizing",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "personalization",
+          "weight": 8,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "mental_filter",
+          "weight": 7,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "labeling",
+          "weight": 9,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "all_or_nothing_thinking",
+          "weight": 11,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "fortune_telling",
+          "weight": 10,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "catastrophizing",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "mind_reading",
+          "weight": 6,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "overgeneralization",
+          "weight": 8,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "jumping_to_conclusions",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "thought_records",
+          "target": "all_or_nothing_thinking",
+          "weight": 54,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "fortune_telling",
+          "weight": 60,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "labeling",
+          "weight": 23,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "overgeneralization",
+          "weight": 59,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "mental_filter",
+          "weight": 30,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "hopelessness",
+          "weight": 2,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "emotional_reasoning",
+          "weight": 5,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "catastrophizing",
+          "weight": 26,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "suicidal_ideation",
+          "weight": 1,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "mind_reading",
+          "weight": 30,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "personalization",
+          "weight": 22,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "jumping_to_conclusions",
+          "weight": 6,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "rumination",
+          "weight": 2,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "discounting_the_positive",
+          "weight": 2,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "mind_reading",
+          "target": "overgeneralization",
+          "weight": 18,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "fortune_telling",
+          "weight": 28,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "all_or_nothing_thinking",
+          "weight": 27,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "mind_reading",
+          "weight": 4,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "personalization",
+          "weight": 16,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "catastrophizing",
+          "weight": 15,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "mental_filter",
+          "weight": 19,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "labeling",
+          "weight": 10,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "emotional_reasoning",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "personalization",
+          "target": "all_or_nothing_thinking",
+          "weight": 8,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "personalization",
+          "target": "catastrophizing",
+          "weight": 11,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "personalization",
+          "target": "mental_filter",
+          "weight": 11,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "personalization",
+          "target": "labeling",
+          "weight": 4,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "personalization",
+          "target": "overgeneralization",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "personalization",
+          "target": "fortune_telling",
+          "weight": 6,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "personalization",
+          "target": "emotional_reasoning",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "personalization",
+          "target": "mind_reading",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "jumping_to_conclusions",
+          "target": "fortune_telling",
+          "weight": 7,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "jumping_to_conclusions",
+          "target": "personalization",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "jumping_to_conclusions",
+          "target": "catastrophizing",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "jumping_to_conclusions",
+          "target": "labeling",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "jumping_to_conclusions",
+          "target": "all_or_nothing_thinking",
+          "weight": 4,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "jumping_to_conclusions",
+          "target": "overgeneralization",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "rumination",
+          "target": "overgeneralization",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "rumination",
+          "target": "mind_reading",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "rumination",
+          "target": "all_or_nothing_thinking",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "rumination",
+          "target": "catastrophizing",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "rumination",
+          "target": "fortune_telling",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "discounting_the_positive",
+          "target": "fortune_telling",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "discounting_the_positive",
+          "target": "overgeneralization",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        }
+      ],
+      "metadata": {
+        "user_id": "user_78957",
+        "journey_type": "fluctuating",
+        "initial_severity": 0.85,
+        "final_severity": 0.68,
+        "improvement": 0.16999999999999993,
+        "interventions_assigned": [
+          "thought_records"
+        ]
+      }
+    },
+    "user_45086": {
+      "nodes": [
+        {
+          "id": "all_or_nothing_thinking",
+          "type": "distortion",
+          "occurrences": 38,
+          "total_confidence": 32.65
+        },
+        {
+          "id": "fortune_telling",
+          "type": "distortion",
+          "occurrences": 14,
+          "total_confidence": 12.139999999999999
+        },
+        {
+          "id": "labeling",
+          "type": "distortion",
+          "occurrences": 26,
+          "total_confidence": 23.759999999999994
+        },
+        {
+          "id": "emotional_reasoning",
+          "type": "distortion",
+          "occurrences": 16,
+          "total_confidence": 14.149999999999999
+        },
+        {
+          "id": "overgeneralization",
+          "type": "distortion",
+          "occurrences": 10,
+          "total_confidence": 8.889999999999999
+        },
+        {
+          "id": "mental_filter",
+          "type": "distortion",
+          "occurrences": 13,
+          "total_confidence": 10.800000000000002
+        },
+        {
+          "id": "jumping_to_conclusions",
+          "type": "distortion",
+          "occurrences": 5,
+          "total_confidence": 4.1499999999999995
+        },
+        {
+          "id": "personalization",
+          "type": "distortion",
+          "occurrences": 3,
+          "total_confidence": 2.37
+        },
+        {
+          "id": "catastrophizing",
+          "type": "distortion",
+          "occurrences": 5,
+          "total_confidence": 4.25
+        },
+        {
+          "id": "mind_reading",
+          "type": "distortion",
+          "occurrences": 5,
+          "total_confidence": 4.12
+        },
+        {
+          "id": "disqualifying_the_positive",
+          "type": "distortion",
+          "occurrences": 3,
+          "total_confidence": 2.45
+        },
+        {
+          "id": "should_statements",
+          "type": "distortion",
+          "occurrences": 2,
+          "total_confidence": 1.5
+        },
+        {
+          "id": "comparison",
+          "type": "distortion",
+          "occurrences": 1,
+          "total_confidence": 0.9
+        },
+        {
+          "id": "hopelessness",
+          "type": "distortion",
+          "occurrences": 1,
+          "total_confidence": 0.98
+        }
+      ],
+      "edges": [
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "fortune_telling",
+          "weight": 25,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "all_or_nothing_thinking",
+          "weight": 34,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "labeling",
+          "weight": 48,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "emotional_reasoning",
+          "weight": 28,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "overgeneralization",
+          "weight": 19,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "mental_filter",
+          "weight": 25,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "jumping_to_conclusions",
+          "weight": 8,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "personalization",
+          "weight": 4,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "catastrophizing",
+          "weight": 8,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "mind_reading",
+          "weight": 7,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "disqualifying_the_positive",
+          "weight": 6,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "should_statements",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "hopelessness",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "fortune_telling",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "all_or_nothing_thinking",
+          "weight": 11,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "labeling",
+          "weight": 11,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "emotional_reasoning",
+          "weight": 5,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "catastrophizing",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "mental_filter",
+          "weight": 4,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "hopelessness",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "labeling",
+          "target": "all_or_nothing_thinking",
+          "weight": 13,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "labeling",
+          "target": "emotional_reasoning",
+          "weight": 7,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "labeling",
+          "target": "fortune_telling",
+          "weight": 11,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "labeling",
+          "target": "catastrophizing",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "labeling",
+          "target": "overgeneralization",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "labeling",
+          "target": "mind_reading",
+          "weight": 4,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "labeling",
+          "target": "labeling",
+          "weight": 16,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "labeling",
+          "target": "mental_filter",
+          "weight": 7,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "labeling",
+          "target": "disqualifying_the_positive",
+          "weight": 4,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "emotional_reasoning",
+          "target": "labeling",
+          "weight": 17,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "emotional_reasoning",
+          "target": "fortune_telling",
+          "weight": 10,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "emotional_reasoning",
+          "target": "catastrophizing",
+          "weight": 4,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "emotional_reasoning",
+          "target": "mind_reading",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "emotional_reasoning",
+          "target": "all_or_nothing_thinking",
+          "weight": 12,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "emotional_reasoning",
+          "target": "overgeneralization",
+          "weight": 4,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "emotional_reasoning",
+          "target": "mental_filter",
+          "weight": 7,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "emotional_reasoning",
+          "target": "jumping_to_conclusions",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "emotional_reasoning",
+          "target": "emotional_reasoning",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "emotional_reasoning",
+          "target": "should_statements",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "overgeneralization",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "mental_filter",
+          "weight": 8,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "jumping_to_conclusions",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "personalization",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "emotional_reasoning",
+          "weight": 6,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "labeling",
+          "weight": 14,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "fortune_telling",
+          "weight": 9,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "catastrophizing",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "mind_reading",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "all_or_nothing_thinking",
+          "weight": 4,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mental_filter",
+          "target": "jumping_to_conclusions",
+          "weight": 4,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mental_filter",
+          "target": "personalization",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mental_filter",
+          "target": "emotional_reasoning",
+          "weight": 5,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mental_filter",
+          "target": "labeling",
+          "weight": 15,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mental_filter",
+          "target": "fortune_telling",
+          "weight": 7,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mental_filter",
+          "target": "catastrophizing",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mental_filter",
+          "target": "all_or_nothing_thinking",
+          "weight": 5,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "jumping_to_conclusions",
+          "target": "personalization",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "jumping_to_conclusions",
+          "target": "emotional_reasoning",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "jumping_to_conclusions",
+          "target": "labeling",
+          "weight": 4,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "jumping_to_conclusions",
+          "target": "fortune_telling",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "jumping_to_conclusions",
+          "target": "catastrophizing",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "jumping_to_conclusions",
+          "target": "all_or_nothing_thinking",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "personalization",
+          "target": "emotional_reasoning",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "personalization",
+          "target": "catastrophizing",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "labeling",
+          "weight": 5,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "all_or_nothing_thinking",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "fortune_telling",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "labeling",
+          "weight": 7,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "mental_filter",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "disqualifying_the_positive",
+          "target": "mental_filter",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "disqualifying_the_positive",
+          "target": "labeling",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "disqualifying_the_positive",
+          "target": "fortune_telling",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "disqualifying_the_positive",
+          "target": "all_or_nothing_thinking",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "should_statements",
+          "target": "all_or_nothing_thinking",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        }
+      ],
+      "metadata": {
+        "user_id": "user_45086",
+        "journey_type": "worsening",
+        "initial_severity": 0.75,
+        "final_severity": 1.0,
+        "improvement": -0.25,
+        "interventions_assigned": []
+      }
+    },
+    "user_32393": {
+      "nodes": [
+        {
+          "id": "all_or_nothing_thinking",
+          "type": "distortion",
+          "occurrences": 110,
+          "total_confidence": 103.62000000000012
+        },
+        {
+          "id": "overgeneralization",
+          "type": "distortion",
+          "occurrences": 24,
+          "total_confidence": 20.95
+        },
+        {
+          "id": "mental_filter",
+          "type": "distortion",
+          "occurrences": 26,
+          "total_confidence": 21.470000000000002
+        },
+        {
+          "id": "magnification",
+          "type": "distortion",
+          "occurrences": 8,
+          "total_confidence": 6.71
+        },
+        {
+          "id": "labeling",
+          "type": "distortion",
+          "occurrences": 36,
+          "total_confidence": 32.489999999999995
+        },
+        {
+          "id": "hopelessness",
+          "type": "distortion",
+          "occurrences": 14,
+          "total_confidence": 13.03
+        },
+        {
+          "id": "thought_records",
+          "type": "intervention",
+          "uses": 36,
+          "avg_severity_change": -0.06777777777777777,
+          "effectiveness_score": 0.06777777777777777
+        },
+        {
+          "id": "mind_reading",
+          "type": "distortion",
+          "occurrences": 13,
+          "total_confidence": 11.500000000000002
+        },
+        {
+          "id": "fortune_telling",
+          "type": "distortion",
+          "occurrences": 35,
+          "total_confidence": 30.410000000000007
+        },
+        {
+          "id": "catastrophizing",
+          "type": "distortion",
+          "occurrences": 36,
+          "total_confidence": 31.589999999999996
+        },
+        {
+          "id": "emotional_reasoning",
+          "type": "distortion",
+          "occurrences": 7,
+          "total_confidence": 5.77
+        },
+        {
+          "id": "should_statements",
+          "type": "distortion",
+          "occurrences": 7,
+          "total_confidence": 5.67
+        },
+        {
+          "id": "disqualifying_the_positive",
+          "type": "distortion",
+          "occurrences": 3,
+          "total_confidence": 2.56
+        },
+        {
+          "id": "personalization",
+          "type": "distortion",
+          "occurrences": 2,
+          "total_confidence": 1.77
+        },
+        {
+          "id": "jumping_to_conclusions",
+          "type": "distortion",
+          "occurrences": 1,
+          "total_confidence": 0.88
+        },
+        {
+          "id": "comparison_trap",
+          "type": "distortion",
+          "occurrences": 1,
+          "total_confidence": 0.83
+        }
+      ],
+      "edges": [
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "all_or_nothing_thinking",
+          "weight": 142,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "overgeneralization",
+          "weight": 53,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "mental_filter",
+          "weight": 70,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "magnification",
+          "weight": 21,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "labeling",
+          "weight": 81,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "hopelessness",
+          "weight": 33,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "mind_reading",
+          "weight": 23,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "fortune_telling",
+          "weight": 83,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "catastrophizing",
+          "weight": 87,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "emotional_reasoning",
+          "weight": 20,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "should_statements",
+          "weight": 23,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "disqualifying_the_positive",
+          "weight": 8,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "personalization",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "comparison_trap",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "mental_filter",
+          "weight": 19,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "magnification",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "labeling",
+          "weight": 17,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "hopelessness",
+          "weight": 12,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "all_or_nothing_thinking",
+          "weight": 9,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "fortune_telling",
+          "weight": 17,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "catastrophizing",
+          "weight": 10,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "disqualifying_the_positive",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "personalization",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "mind_reading",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "overgeneralization",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "emotional_reasoning",
+          "weight": 4,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mental_filter",
+          "target": "magnification",
+          "weight": 4,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mental_filter",
+          "target": "labeling",
+          "weight": 10,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mental_filter",
+          "target": "hopelessness",
+          "weight": 11,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mental_filter",
+          "target": "should_statements",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mental_filter",
+          "target": "fortune_telling",
+          "weight": 11,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mental_filter",
+          "target": "catastrophizing",
+          "weight": 5,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mental_filter",
+          "target": "disqualifying_the_positive",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mental_filter",
+          "target": "personalization",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mental_filter",
+          "target": "mind_reading",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mental_filter",
+          "target": "emotional_reasoning",
+          "weight": 5,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mental_filter",
+          "target": "all_or_nothing_thinking",
+          "weight": 6,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "magnification",
+          "target": "labeling",
+          "weight": 4,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "magnification",
+          "target": "hopelessness",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "magnification",
+          "target": "fortune_telling",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "magnification",
+          "target": "catastrophizing",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "magnification",
+          "target": "all_or_nothing_thinking",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "labeling",
+          "target": "hopelessness",
+          "weight": 13,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "labeling",
+          "target": "fortune_telling",
+          "weight": 16,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "labeling",
+          "target": "catastrophizing",
+          "weight": 13,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "labeling",
+          "target": "all_or_nothing_thinking",
+          "weight": 18,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "labeling",
+          "target": "labeling",
+          "weight": 9,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "labeling",
+          "target": "mental_filter",
+          "weight": 16,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "labeling",
+          "target": "should_statements",
+          "weight": 6,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "labeling",
+          "target": "magnification",
+          "weight": 6,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "labeling",
+          "target": "mind_reading",
+          "weight": 4,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "labeling",
+          "target": "overgeneralization",
+          "weight": 8,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "labeling",
+          "target": "disqualifying_the_positive",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "labeling",
+          "target": "personalization",
+          "weight": 4,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "labeling",
+          "target": "emotional_reasoning",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "hopelessness",
+          "target": "hopelessness",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "hopelessness",
+          "target": "labeling",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "hopelessness",
+          "target": "fortune_telling",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "hopelessness",
+          "target": "all_or_nothing_thinking",
+          "weight": 5,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "hopelessness",
+          "target": "mental_filter",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "hopelessness",
+          "target": "catastrophizing",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "thought_records",
+          "target": "all_or_nothing_thinking",
+          "weight": 110,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "overgeneralization",
+          "weight": 24,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "mental_filter",
+          "weight": 26,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "magnification",
+          "weight": 8,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "labeling",
+          "weight": 36,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "hopelessness",
+          "weight": 14,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "mind_reading",
+          "weight": 13,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "fortune_telling",
+          "weight": 35,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "catastrophizing",
+          "weight": 36,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "emotional_reasoning",
+          "weight": 7,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "should_statements",
+          "weight": 7,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "disqualifying_the_positive",
+          "weight": 3,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "personalization",
+          "weight": 2,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "jumping_to_conclusions",
+          "weight": 1,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "comparison_trap",
+          "weight": 1,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "mind_reading",
+          "target": "overgeneralization",
+          "weight": 10,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "all_or_nothing_thinking",
+          "weight": 8,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "magnification",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "labeling",
+          "weight": 12,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "fortune_telling",
+          "weight": 6,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "catastrophizing",
+          "weight": 10,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "mental_filter",
+          "weight": 7,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "personalization",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "hopelessness",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "catastrophizing",
+          "weight": 19,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "all_or_nothing_thinking",
+          "weight": 19,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "emotional_reasoning",
+          "weight": 6,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "labeling",
+          "weight": 23,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "mental_filter",
+          "weight": 17,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "should_statements",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "magnification",
+          "weight": 6,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "hopelessness",
+          "weight": 17,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "fortune_telling",
+          "weight": 10,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "mind_reading",
+          "weight": 5,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "overgeneralization",
+          "weight": 8,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "personalization",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "comparison_trap",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "all_or_nothing_thinking",
+          "weight": 22,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "emotional_reasoning",
+          "weight": 5,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "labeling",
+          "weight": 26,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "mental_filter",
+          "weight": 18,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "should_statements",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "magnification",
+          "weight": 4,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "hopelessness",
+          "weight": 11,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "fortune_telling",
+          "weight": 17,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "overgeneralization",
+          "weight": 15,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "mind_reading",
+          "weight": 4,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "catastrophizing",
+          "weight": 6,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "emotional_reasoning",
+          "target": "labeling",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "emotional_reasoning",
+          "target": "hopelessness",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "should_statements",
+          "target": "magnification",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "should_statements",
+          "target": "mental_filter",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "should_statements",
+          "target": "catastrophizing",
+          "weight": 5,
+          "edge_type": "co_occurs"
+        }
+      ],
+      "metadata": {
+        "user_id": "user_32393",
+        "journey_type": "fluctuating",
+        "initial_severity": 1.0,
+        "final_severity": 0.0,
+        "improvement": 1.0,
+        "interventions_assigned": [
+          "thought_records"
+        ]
+      }
+    },
+    "user_78600": {
+      "nodes": [
+        {
+          "id": "fortune_telling",
+          "type": "distortion",
+          "occurrences": 10,
+          "total_confidence": 7.35
+        },
+        {
+          "id": "emotional_reasoning",
+          "type": "distortion",
+          "occurrences": 26,
+          "total_confidence": 17.970000000000006
+        },
+        {
+          "id": "labeling",
+          "type": "distortion",
+          "occurrences": 2,
+          "total_confidence": 1.2000000000000002
+        },
+        {
+          "id": "catastrophizing",
+          "type": "distortion",
+          "occurrences": 9,
+          "total_confidence": 6.95
+        },
+        {
+          "id": "all_or_nothing_thinking",
+          "type": "distortion",
+          "occurrences": 19,
+          "total_confidence": 12.8
+        },
+        {
+          "id": "mindfulness",
+          "type": "intervention",
+          "uses": 19,
+          "avg_severity_change": -0.042222222222222223,
+          "effectiveness_score": 0.042222222222222223
+        },
+        {
+          "id": "cognitive_restructuring",
+          "type": "intervention",
+          "uses": 17,
+          "avg_severity_change": -0.045,
+          "effectiveness_score": 0.045
+        },
+        {
+          "id": "should_statements",
+          "type": "distortion",
+          "occurrences": 5,
+          "total_confidence": 3.6999999999999997
+        },
+        {
+          "id": "mind_reading",
+          "type": "distortion",
+          "occurrences": 1,
+          "total_confidence": 0.8
+        },
+        {
+          "id": "mental_filter",
+          "type": "distortion",
+          "occurrences": 2,
+          "total_confidence": 1.3
+        }
+      ],
+      "edges": [
+        {
+          "source": "fortune_telling",
+          "target": "emotional_reasoning",
+          "weight": 9,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "all_or_nothing_thinking",
+          "weight": 5,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "emotional_reasoning",
+          "target": "emotional_reasoning",
+          "weight": 6,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "emotional_reasoning",
+          "target": "labeling",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "emotional_reasoning",
+          "target": "catastrophizing",
+          "weight": 4,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "emotional_reasoning",
+          "target": "all_or_nothing_thinking",
+          "weight": 12,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "emotional_reasoning",
+          "target": "should_statements",
+          "weight": 5,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "emotional_reasoning",
+          "target": "fortune_telling",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "emotional_reasoning",
+          "target": "mental_filter",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "labeling",
+          "target": "all_or_nothing_thinking",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "all_or_nothing_thinking",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "emotional_reasoning",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "mental_filter",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "all_or_nothing_thinking",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "fortune_telling",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "emotional_reasoning",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "catastrophizing",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mindfulness",
+          "target": "fortune_telling",
+          "weight": 7,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "mindfulness",
+          "target": "emotional_reasoning",
+          "weight": 24,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "mindfulness",
+          "target": "labeling",
+          "weight": 2,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "mindfulness",
+          "target": "catastrophizing",
+          "weight": 6,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "mindfulness",
+          "target": "all_or_nothing_thinking",
+          "weight": 10,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "mindfulness",
+          "target": "should_statements",
+          "weight": 4,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "mindfulness",
+          "target": "mental_filter",
+          "weight": 2,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "cognitive_restructuring",
+          "target": "fortune_telling",
+          "weight": 4,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "cognitive_restructuring",
+          "target": "emotional_reasoning",
+          "weight": 17,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "cognitive_restructuring",
+          "target": "should_statements",
+          "weight": 4,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "cognitive_restructuring",
+          "target": "all_or_nothing_thinking",
+          "weight": 6,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "cognitive_restructuring",
+          "target": "catastrophizing",
+          "weight": 5,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "cognitive_restructuring",
+          "target": "mind_reading",
+          "weight": 1,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "cognitive_restructuring",
+          "target": "mental_filter",
+          "weight": 2,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "cognitive_restructuring",
+          "target": "labeling",
+          "weight": 1,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "should_statements",
+          "target": "all_or_nothing_thinking",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        }
+      ],
+      "metadata": {
+        "user_id": "user_78600",
+        "journey_type": "plateauing",
+        "initial_severity": 0.4,
+        "final_severity": 0.15,
+        "improvement": 0.25,
+        "interventions_assigned": [
+          "cognitive_restructuring",
+          "mindfulness"
+        ]
+      }
+    },
+    "user_20769": {
+      "nodes": [
+        {
+          "id": "should_statements",
+          "type": "distortion",
+          "occurrences": 44,
+          "total_confidence": 40.199999999999974
+        },
+        {
+          "id": "mental_filter",
+          "type": "distortion",
+          "occurrences": 5,
+          "total_confidence": 3.8499999999999996
+        },
+        {
+          "id": "mind_reading",
+          "type": "distortion",
+          "occurrences": 1,
+          "total_confidence": 0.8
+        },
+        {
+          "id": "catastrophizing",
+          "type": "distortion",
+          "occurrences": 1,
+          "total_confidence": 0.75
+        },
+        {
+          "id": "all_or_nothing_thinking",
+          "type": "distortion",
+          "occurrences": 4,
+          "total_confidence": 3.08
+        },
+        {
+          "id": "behavioral_experiments",
+          "type": "intervention",
+          "uses": 1,
+          "avg_severity_change": -0.010000000000000009,
+          "effectiveness_score": 0.010000000000000009
+        },
+        {
+          "id": "personalization",
+          "type": "distortion",
+          "occurrences": 4,
+          "total_confidence": 3.2500000000000004
+        },
+        {
+          "id": "labeling",
+          "type": "distortion",
+          "occurrences": 4,
+          "total_confidence": 3.3499999999999996
+        },
+        {
+          "id": "minimization",
+          "type": "distortion",
+          "occurrences": 1,
+          "total_confidence": 0.8
+        },
+        {
+          "id": "emotional_reasoning",
+          "type": "distortion",
+          "occurrences": 3,
+          "total_confidence": 2.25
+        },
+        {
+          "id": "discounting_the_positive",
+          "type": "distortion",
+          "occurrences": 1,
+          "total_confidence": 0.82
+        },
+        {
+          "id": "age_related_expectations",
+          "type": "distortion",
+          "occurrences": 1,
+          "total_confidence": 0.85
+        }
+      ],
+      "edges": [
+        {
+          "source": "should_statements",
+          "target": "should_statements",
+          "weight": 85,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "should_statements",
+          "target": "mental_filter",
+          "weight": 19,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "should_statements",
+          "target": "mind_reading",
+          "weight": 4,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "should_statements",
+          "target": "catastrophizing",
+          "weight": 6,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "should_statements",
+          "target": "all_or_nothing_thinking",
+          "weight": 17,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "should_statements",
+          "target": "personalization",
+          "weight": 8,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "should_statements",
+          "target": "labeling",
+          "weight": 16,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "should_statements",
+          "target": "minimization",
+          "weight": 4,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "should_statements",
+          "target": "emotional_reasoning",
+          "weight": 14,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "should_statements",
+          "target": "discounting_the_positive",
+          "weight": 4,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "should_statements",
+          "target": "age_related_expectations",
+          "weight": 4,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mental_filter",
+          "target": "should_statements",
+          "weight": 5,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mental_filter",
+          "target": "all_or_nothing_thinking",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mental_filter",
+          "target": "labeling",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "should_statements",
+          "weight": 4,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "should_statements",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "mental_filter",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "behavioral_experiments",
+          "target": "should_statements",
+          "weight": 8,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "behavioral_experiments",
+          "target": "mental_filter",
+          "weight": 1,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "behavioral_experiments",
+          "target": "mind_reading",
+          "weight": 1,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "behavioral_experiments",
+          "target": "catastrophizing",
+          "weight": 1,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "behavioral_experiments",
+          "target": "all_or_nothing_thinking",
+          "weight": 1,
+          "edge_type": "addresses"
+        }
+      ],
+      "metadata": {
+        "user_id": "user_20769",
+        "journey_type": "rapid_improvement",
+        "initial_severity": 0.9,
+        "final_severity": 0.15,
+        "improvement": 0.75,
+        "interventions_assigned": [
+          "behavioral_experiments",
+          "exposure_therapy",
+          "examine_evidence"
+        ]
+      }
+    },
+    "user_57841": {
+      "nodes": [
+        {
+          "id": "catastrophizing",
+          "type": "distortion",
+          "occurrences": 14,
+          "total_confidence": 11.600000000000001
+        },
+        {
+          "id": "all_or_nothing_thinking",
+          "type": "distortion",
+          "occurrences": 4,
+          "total_confidence": 2.1
+        },
+        {
+          "id": "mental_filter",
+          "type": "distortion",
+          "occurrences": 3,
+          "total_confidence": 1.6999999999999997
+        },
+        {
+          "id": "behavioral_experiments",
+          "type": "intervention",
+          "uses": 5,
+          "avg_severity_change": -0.012,
+          "effectiveness_score": 0.012
+        },
+        {
+          "id": "exposure_therapy",
+          "type": "intervention",
+          "uses": 10,
+          "avg_severity_change": -0.05999999999999999,
+          "effectiveness_score": 0.05999999999999999
+        },
+        {
+          "id": "fortune_telling",
+          "type": "distortion",
+          "occurrences": 3,
+          "total_confidence": 1.8499999999999999
+        },
+        {
+          "id": "discounting_the_positive",
+          "type": "distortion",
+          "occurrences": 1,
+          "total_confidence": 0.75
+        },
+        {
+          "id": "jumping_to_conclusions",
+          "type": "distortion",
+          "occurrences": 1,
+          "total_confidence": 0.9
+        },
+        {
+          "id": "examine_evidence",
+          "type": "intervention",
+          "uses": 1,
+          "avg_severity_change": -0.12999999999999995,
+          "effectiveness_score": 0.12999999999999995
+        }
+      ],
+      "edges": [
+        {
+          "source": "catastrophizing",
+          "target": "catastrophizing",
+          "weight": 6,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "all_or_nothing_thinking",
+          "weight": 4,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "mental_filter",
+          "weight": 5,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "fortune_telling",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "behavioral_experiments",
+          "target": "catastrophizing",
+          "weight": 8,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "behavioral_experiments",
+          "target": "all_or_nothing_thinking",
+          "weight": 1,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "behavioral_experiments",
+          "target": "mental_filter",
+          "weight": 1,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "behavioral_experiments",
+          "target": "fortune_telling",
+          "weight": 2,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "behavioral_experiments",
+          "target": "discounting_the_positive",
+          "weight": 1,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "exposure_therapy",
+          "target": "catastrophizing",
+          "weight": 14,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "exposure_therapy",
+          "target": "all_or_nothing_thinking",
+          "weight": 2,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "exposure_therapy",
+          "target": "mental_filter",
+          "weight": 3,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "exposure_therapy",
+          "target": "fortune_telling",
+          "weight": 3,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "exposure_therapy",
+          "target": "discounting_the_positive",
+          "weight": 1,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "exposure_therapy",
+          "target": "jumping_to_conclusions",
+          "weight": 1,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "examine_evidence",
+          "target": "catastrophizing",
+          "weight": 1,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "examine_evidence",
+          "target": "jumping_to_conclusions",
+          "weight": 1,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "examine_evidence",
+          "target": "all_or_nothing_thinking",
+          "weight": 1,
+          "edge_type": "addresses"
+        }
+      ],
+      "metadata": {
+        "user_id": "user_57841",
+        "journey_type": "rapid_improvement",
+        "initial_severity": 0.8,
+        "final_severity": 0.12,
+        "improvement": 0.68,
+        "interventions_assigned": [
+          "behavioral_experiments",
+          "exposure_therapy",
+          "examine_evidence"
+        ]
+      }
+    },
+    "user_16067": {
+      "nodes": [
+        {
+          "id": "mind_reading",
+          "type": "distortion",
+          "occurrences": 101,
+          "total_confidence": 89.13000000000002
+        },
+        {
+          "id": "catastrophizing",
+          "type": "distortion",
+          "occurrences": 36,
+          "total_confidence": 27.220000000000002
+        },
+        {
+          "id": "all_or_nothing_thinking",
+          "type": "distortion",
+          "occurrences": 23,
+          "total_confidence": 16.33
+        },
+        {
+          "id": "fortune_telling",
+          "type": "distortion",
+          "occurrences": 24,
+          "total_confidence": 19.130000000000003
+        },
+        {
+          "id": "personalization",
+          "type": "distortion",
+          "occurrences": 21,
+          "total_confidence": 16.200000000000003
+        },
+        {
+          "id": "mental_filter",
+          "type": "distortion",
+          "occurrences": 10,
+          "total_confidence": 7.3500000000000005
+        },
+        {
+          "id": "thought_records",
+          "type": "intervention",
+          "uses": 38,
+          "avg_severity_change": -0.01567567567567568,
+          "effectiveness_score": 0.01567567567567568
+        },
+        {
+          "id": "jumping_to_conclusions",
+          "type": "distortion",
+          "occurrences": 11,
+          "total_confidence": 9.15
+        },
+        {
+          "id": "emotional_reasoning",
+          "type": "distortion",
+          "occurrences": 15,
+          "total_confidence": 11.37
+        },
+        {
+          "id": "labeling",
+          "type": "distortion",
+          "occurrences": 6,
+          "total_confidence": 5.0
+        },
+        {
+          "id": "all_or_nothing",
+          "type": "distortion",
+          "occurrences": 4,
+          "total_confidence": 2.85
+        },
+        {
+          "id": "rumination",
+          "type": "distortion",
+          "occurrences": 2,
+          "total_confidence": 1.8
+        },
+        {
+          "id": "discounting_the_positive",
+          "type": "distortion",
+          "occurrences": 1,
+          "total_confidence": 0.75
+        },
+        {
+          "id": "should_statements",
+          "type": "distortion",
+          "occurrences": 1,
+          "total_confidence": 0.8
+        },
+        {
+          "id": "disqualifying_positive",
+          "type": "distortion",
+          "occurrences": 1,
+          "total_confidence": 0.9
+        },
+        {
+          "id": "disqualifying_the_positive",
+          "type": "distortion",
+          "occurrences": 3,
+          "total_confidence": 2.3499999999999996
+        }
+      ],
+      "edges": [
+        {
+          "source": "mind_reading",
+          "target": "mind_reading",
+          "weight": 94,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "catastrophizing",
+          "weight": 82,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "all_or_nothing_thinking",
+          "weight": 55,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "fortune_telling",
+          "weight": 55,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "personalization",
+          "weight": 50,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "mental_filter",
+          "weight": 25,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "jumping_to_conclusions",
+          "weight": 24,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "emotional_reasoning",
+          "weight": 36,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "labeling",
+          "weight": 18,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "all_or_nothing",
+          "weight": 10,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "rumination",
+          "weight": 7,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "discounting_the_positive",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "should_statements",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "disqualifying_positive",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "disqualifying_the_positive",
+          "weight": 9,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "all_or_nothing_thinking",
+          "weight": 10,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "fortune_telling",
+          "weight": 14,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "personalization",
+          "weight": 11,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "mental_filter",
+          "weight": 8,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "emotional_reasoning",
+          "weight": 13,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "mind_reading",
+          "weight": 9,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "jumping_to_conclusions",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "all_or_nothing",
+          "weight": 5,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "catastrophizing",
+          "weight": 4,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "labeling",
+          "weight": 4,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "fortune_telling",
+          "weight": 6,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "personalization",
+          "weight": 6,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "mental_filter",
+          "weight": 7,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "catastrophizing",
+          "weight": 9,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "emotional_reasoning",
+          "weight": 5,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "mind_reading",
+          "weight": 7,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "labeling",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "personalization",
+          "weight": 7,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "mental_filter",
+          "weight": 6,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "all_or_nothing_thinking",
+          "weight": 9,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "jumping_to_conclusions",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "catastrophizing",
+          "weight": 9,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "emotional_reasoning",
+          "weight": 6,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "labeling",
+          "weight": 4,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "all_or_nothing",
+          "weight": 4,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "fortune_telling",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "mind_reading",
+          "weight": 10,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "personalization",
+          "target": "mental_filter",
+          "weight": 5,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "personalization",
+          "target": "emotional_reasoning",
+          "weight": 7,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "personalization",
+          "target": "all_or_nothing_thinking",
+          "weight": 7,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "personalization",
+          "target": "labeling",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "personalization",
+          "target": "catastrophizing",
+          "weight": 4,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "personalization",
+          "target": "jumping_to_conclusions",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "thought_records",
+          "target": "mind_reading",
+          "weight": 98,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "catastrophizing",
+          "weight": 36,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "all_or_nothing_thinking",
+          "weight": 23,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "fortune_telling",
+          "weight": 23,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "personalization",
+          "weight": 20,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "mental_filter",
+          "weight": 10,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "jumping_to_conclusions",
+          "weight": 11,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "emotional_reasoning",
+          "weight": 14,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "labeling",
+          "weight": 6,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "all_or_nothing",
+          "weight": 4,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "rumination",
+          "weight": 2,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "discounting_the_positive",
+          "weight": 1,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "should_statements",
+          "weight": 1,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "disqualifying_positive",
+          "weight": 1,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "disqualifying_the_positive",
+          "weight": 3,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "jumping_to_conclusions",
+          "target": "mind_reading",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "jumping_to_conclusions",
+          "target": "catastrophizing",
+          "weight": 5,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "jumping_to_conclusions",
+          "target": "all_or_nothing_thinking",
+          "weight": 8,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "jumping_to_conclusions",
+          "target": "mental_filter",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "jumping_to_conclusions",
+          "target": "personalization",
+          "weight": 8,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "jumping_to_conclusions",
+          "target": "emotional_reasoning",
+          "weight": 4,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "jumping_to_conclusions",
+          "target": "discounting_the_positive",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "emotional_reasoning",
+          "target": "all_or_nothing_thinking",
+          "weight": 5,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "emotional_reasoning",
+          "target": "fortune_telling",
+          "weight": 4,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "emotional_reasoning",
+          "target": "mental_filter",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "emotional_reasoning",
+          "target": "catastrophizing",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "emotional_reasoning",
+          "target": "labeling",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "labeling",
+          "target": "catastrophizing",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "labeling",
+          "target": "fortune_telling",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "disqualifying_the_positive",
+          "target": "fortune_telling",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "disqualifying_the_positive",
+          "target": "mind_reading",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "disqualifying_the_positive",
+          "target": "labeling",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        }
+      ],
+      "metadata": {
+        "user_id": "user_16067",
+        "journey_type": "fluctuating",
+        "initial_severity": 0.6000000000000001,
+        "final_severity": 0.32,
+        "improvement": 0.2800000000000001,
+        "interventions_assigned": [
+          "thought_records"
+        ]
+      }
+    },
+    "user_93443": {
+      "nodes": [
+        {
+          "id": "catastrophizing",
+          "type": "distortion",
+          "occurrences": 52,
+          "total_confidence": 47.339999999999996
+        },
+        {
+          "id": "fortune_telling",
+          "type": "distortion",
+          "occurrences": 28,
+          "total_confidence": 24.110000000000003
+        },
+        {
+          "id": "overgeneralization",
+          "type": "distortion",
+          "occurrences": 12,
+          "total_confidence": 10.0
+        },
+        {
+          "id": "mental_filter",
+          "type": "distortion",
+          "occurrences": 17,
+          "total_confidence": 12.86
+        },
+        {
+          "id": "all_or_nothing_thinking",
+          "type": "distortion",
+          "occurrences": 33,
+          "total_confidence": 25.540000000000003
+        },
+        {
+          "id": "personalization",
+          "type": "distortion",
+          "occurrences": 1,
+          "total_confidence": 0.82
+        },
+        {
+          "id": "mindfulness",
+          "type": "intervention",
+          "uses": 18,
+          "avg_severity_change": -0.04055555555555555,
+          "effectiveness_score": 0.04055555555555555
+        },
+        {
+          "id": "emotional_reasoning",
+          "type": "distortion",
+          "occurrences": 7,
+          "total_confidence": 5.57
+        },
+        {
+          "id": "cognitive_restructuring",
+          "type": "intervention",
+          "uses": 9,
+          "avg_severity_change": -0.02555555555555554,
+          "effectiveness_score": 0.02555555555555554
+        },
+        {
+          "id": "magnification",
+          "type": "distortion",
+          "occurrences": 1,
+          "total_confidence": 0.85
+        },
+        {
+          "id": "labeling",
+          "type": "distortion",
+          "occurrences": 4,
+          "total_confidence": 3.47
+        },
+        {
+          "id": "disqualifying_the_positive",
+          "type": "distortion",
+          "occurrences": 3,
+          "total_confidence": 2.17
+        },
+        {
+          "id": "should_statements",
+          "type": "distortion",
+          "occurrences": 3,
+          "total_confidence": 2.25
+        },
+        {
+          "id": "mind_reading",
+          "type": "distortion",
+          "occurrences": 2,
+          "total_confidence": 1.7
+        },
+        {
+          "id": "discounting_the_positive",
+          "type": "distortion",
+          "occurrences": 4,
+          "total_confidence": 3.25
+        },
+        {
+          "id": "magical_thinking",
+          "type": "distortion",
+          "occurrences": 1,
+          "total_confidence": 0.8
+        },
+        {
+          "id": "minimization",
+          "type": "distortion",
+          "occurrences": 1,
+          "total_confidence": 0.7
+        }
+      ],
+      "edges": [
+        {
+          "source": "catastrophizing",
+          "target": "fortune_telling",
+          "weight": 38,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "overgeneralization",
+          "weight": 19,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "mental_filter",
+          "weight": 28,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "all_or_nothing_thinking",
+          "weight": 51,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "catastrophizing",
+          "weight": 28,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "emotional_reasoning",
+          "weight": 11,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "magnification",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "labeling",
+          "weight": 8,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "disqualifying_the_positive",
+          "weight": 5,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "should_statements",
+          "weight": 5,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "mind_reading",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "discounting_the_positive",
+          "weight": 6,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "overgeneralization",
+          "weight": 13,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "mental_filter",
+          "weight": 17,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "all_or_nothing_thinking",
+          "weight": 23,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "catastrophizing",
+          "weight": 5,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "emotional_reasoning",
+          "weight": 5,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "labeling",
+          "weight": 5,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "fortune_telling",
+          "weight": 5,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "disqualifying_the_positive",
+          "weight": 5,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "should_statements",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "fortune_telling",
+          "target": "discounting_the_positive",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "mental_filter",
+          "weight": 4,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "all_or_nothing_thinking",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "catastrophizing",
+          "weight": 4,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "emotional_reasoning",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "discounting_the_positive",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mental_filter",
+          "target": "all_or_nothing_thinking",
+          "weight": 5,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mental_filter",
+          "target": "catastrophizing",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mental_filter",
+          "target": "overgeneralization",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mental_filter",
+          "target": "emotional_reasoning",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mental_filter",
+          "target": "disqualifying_the_positive",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mental_filter",
+          "target": "fortune_telling",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "catastrophizing",
+          "weight": 9,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "mental_filter",
+          "weight": 13,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "overgeneralization",
+          "weight": 13,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "emotional_reasoning",
+          "weight": 5,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "labeling",
+          "weight": 7,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "fortune_telling",
+          "weight": 9,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "disqualifying_the_positive",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "should_statements",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "all_or_nothing_thinking",
+          "weight": 7,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "discounting_the_positive",
+          "weight": 4,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mindfulness",
+          "target": "catastrophizing",
+          "weight": 31,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "mindfulness",
+          "target": "fortune_telling",
+          "weight": 19,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "mindfulness",
+          "target": "overgeneralization",
+          "weight": 5,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "mindfulness",
+          "target": "mental_filter",
+          "weight": 16,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "mindfulness",
+          "target": "all_or_nothing_thinking",
+          "weight": 18,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "mindfulness",
+          "target": "personalization",
+          "weight": 1,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "mindfulness",
+          "target": "magnification",
+          "weight": 1,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "mindfulness",
+          "target": "emotional_reasoning",
+          "weight": 5,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "mindfulness",
+          "target": "labeling",
+          "weight": 3,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "mindfulness",
+          "target": "disqualifying_the_positive",
+          "weight": 3,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "mindfulness",
+          "target": "should_statements",
+          "weight": 3,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "mindfulness",
+          "target": "mind_reading",
+          "weight": 2,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "mindfulness",
+          "target": "discounting_the_positive",
+          "weight": 2,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "emotional_reasoning",
+          "target": "mental_filter",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "cognitive_restructuring",
+          "target": "catastrophizing",
+          "weight": 17,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "cognitive_restructuring",
+          "target": "fortune_telling",
+          "weight": 8,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "cognitive_restructuring",
+          "target": "all_or_nothing_thinking",
+          "weight": 12,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "cognitive_restructuring",
+          "target": "mental_filter",
+          "weight": 7,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "cognitive_restructuring",
+          "target": "overgeneralization",
+          "weight": 5,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "cognitive_restructuring",
+          "target": "emotional_reasoning",
+          "weight": 5,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "cognitive_restructuring",
+          "target": "labeling",
+          "weight": 3,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "cognitive_restructuring",
+          "target": "should_statements",
+          "weight": 3,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "cognitive_restructuring",
+          "target": "mind_reading",
+          "weight": 1,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "should_statements",
+          "target": "mental_filter",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "fortune_telling",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "all_or_nothing_thinking",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "mental_filter",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        }
+      ],
+      "metadata": {
+        "user_id": "user_93443",
+        "journey_type": "plateauing",
+        "initial_severity": 0.75,
+        "final_severity": 0.35,
+        "improvement": 0.4,
+        "interventions_assigned": [
+          "cognitive_restructuring",
+          "mindfulness"
+        ]
+      }
+    },
+    "user_76319": {
+      "nodes": [
+        {
+          "id": "mind_reading",
+          "type": "distortion",
+          "occurrences": 40,
+          "total_confidence": 33.49999999999999
+        },
+        {
+          "id": "jumping_to_conclusions",
+          "type": "distortion",
+          "occurrences": 3,
+          "total_confidence": 2.5
+        },
+        {
+          "id": "personalization",
+          "type": "distortion",
+          "occurrences": 5,
+          "total_confidence": 3.6000000000000005
+        },
+        {
+          "id": "emotional_reasoning",
+          "type": "distortion",
+          "occurrences": 2,
+          "total_confidence": 1.4
+        },
+        {
+          "id": "negative_self_talk",
+          "type": "distortion",
+          "occurrences": 1,
+          "total_confidence": 0.7
+        },
+        {
+          "id": "examine_evidence",
+          "type": "intervention",
+          "uses": 19,
+          "avg_severity_change": -0.01888888888888889,
+          "effectiveness_score": 0.01888888888888889
+        },
+        {
+          "id": "labeling",
+          "type": "distortion",
+          "occurrences": 3,
+          "total_confidence": 2.4
+        },
+        {
+          "id": "overgeneralization",
+          "type": "distortion",
+          "occurrences": 12,
+          "total_confidence": 9.0
+        },
+        {
+          "id": "catastrophizing",
+          "type": "distortion",
+          "occurrences": 7,
+          "total_confidence": 4.999999999999999
+        },
+        {
+          "id": "thought_records",
+          "type": "intervention",
+          "uses": 12,
+          "avg_severity_change": 0.011666666666666667,
+          "effectiveness_score": -0.011666666666666667
+        },
+        {
+          "id": "all_or_nothing_thinking",
+          "type": "distortion",
+          "occurrences": 4,
+          "total_confidence": 2.75
+        },
+        {
+          "id": "mental_filter",
+          "type": "distortion",
+          "occurrences": 1,
+          "total_confidence": 0.7
+        },
+        {
+          "id": "fortune_telling",
+          "type": "distortion",
+          "occurrences": 1,
+          "total_confidence": 0.6
+        },
+        {
+          "id": "negative_prediction",
+          "type": "distortion",
+          "occurrences": 1,
+          "total_confidence": 0.8
+        }
+      ],
+      "edges": [
+        {
+          "source": "mind_reading",
+          "target": "mind_reading",
+          "weight": 18,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "jumping_to_conclusions",
+          "weight": 6,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "personalization",
+          "weight": 11,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "emotional_reasoning",
+          "weight": 4,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "negative_self_talk",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "labeling",
+          "weight": 5,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "overgeneralization",
+          "weight": 15,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "catastrophizing",
+          "weight": 13,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "all_or_nothing_thinking",
+          "weight": 8,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "mental_filter",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "fortune_telling",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "mind_reading",
+          "target": "negative_prediction",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "jumping_to_conclusions",
+          "target": "personalization",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "examine_evidence",
+          "target": "mind_reading",
+          "weight": 32,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "examine_evidence",
+          "target": "jumping_to_conclusions",
+          "weight": 3,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "examine_evidence",
+          "target": "personalization",
+          "weight": 3,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "examine_evidence",
+          "target": "emotional_reasoning",
+          "weight": 1,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "examine_evidence",
+          "target": "negative_self_talk",
+          "weight": 1,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "examine_evidence",
+          "target": "labeling",
+          "weight": 2,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "examine_evidence",
+          "target": "overgeneralization",
+          "weight": 6,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "examine_evidence",
+          "target": "catastrophizing",
+          "weight": 6,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "examine_evidence",
+          "target": "all_or_nothing_thinking",
+          "weight": 3,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "examine_evidence",
+          "target": "negative_prediction",
+          "weight": 1,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "mind_reading",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "catastrophizing",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "labeling",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "all_or_nothing_thinking",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "personalization",
+          "weight": 3,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "overgeneralization",
+          "target": "emotional_reasoning",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "catastrophizing",
+          "target": "labeling",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "thought_records",
+          "target": "mind_reading",
+          "weight": 19,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "labeling",
+          "weight": 3,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "overgeneralization",
+          "weight": 12,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "catastrophizing",
+          "weight": 5,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "all_or_nothing_thinking",
+          "weight": 2,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "mental_filter",
+          "weight": 1,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "fortune_telling",
+          "weight": 1,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "personalization",
+          "weight": 2,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "emotional_reasoning",
+          "weight": 1,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "catastrophizing",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        }
+      ],
+      "metadata": {
+        "user_id": "user_76319",
+        "journey_type": "improving",
+        "initial_severity": 0.75,
+        "final_severity": 0.25,
+        "improvement": 0.5,
+        "interventions_assigned": [
+          "thought_records",
+          "examine_evidence"
+        ]
+      }
+    },
+    "user_77693": {
+      "nodes": [
+        {
+          "id": "all_or_nothing_thinking",
+          "type": "distortion",
+          "occurrences": 32,
+          "total_confidence": 28.449999999999992
+        },
+        {
+          "id": "thought_records",
+          "type": "intervention",
+          "uses": 24,
+          "avg_severity_change": -0.007391304347826086,
+          "effectiveness_score": 0.007391304347826086
+        },
+        {
+          "id": "labeling",
+          "type": "distortion",
+          "occurrences": 1,
+          "total_confidence": 0.8
+        },
+        {
+          "id": "catastrophizing",
+          "type": "distortion",
+          "occurrences": 3,
+          "total_confidence": 1.85
+        },
+        {
+          "id": "fortune_telling",
+          "type": "distortion",
+          "occurrences": 1,
+          "total_confidence": 0.85
+        },
+        {
+          "id": "discounting_the_positive",
+          "type": "distortion",
+          "occurrences": 1,
+          "total_confidence": 0.8
+        },
+        {
+          "id": "mind_reading",
+          "type": "distortion",
+          "occurrences": 1,
+          "total_confidence": 0.85
+        },
+        {
+          "id": "examine_evidence",
+          "type": "intervention",
+          "uses": 2,
+          "avg_severity_change": -0.035,
+          "effectiveness_score": 0.035
+        },
+        {
+          "id": "overgeneralization",
+          "type": "distortion",
+          "occurrences": 1,
+          "total_confidence": 0.95
+        }
+      ],
+      "edges": [
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "all_or_nothing_thinking",
+          "weight": 10,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "catastrophizing",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "all_or_nothing_thinking",
+          "target": "discounting_the_positive",
+          "weight": 2,
+          "edge_type": "co_occurs"
+        },
+        {
+          "source": "thought_records",
+          "target": "all_or_nothing_thinking",
+          "weight": 32,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "labeling",
+          "weight": 1,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "catastrophizing",
+          "weight": 3,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "fortune_telling",
+          "weight": 1,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "discounting_the_positive",
+          "weight": 1,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "mind_reading",
+          "weight": 1,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "thought_records",
+          "target": "overgeneralization",
+          "weight": 1,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "examine_evidence",
+          "target": "all_or_nothing_thinking",
+          "weight": 2,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "examine_evidence",
+          "target": "catastrophizing",
+          "weight": 1,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "examine_evidence",
+          "target": "mind_reading",
+          "weight": 1,
+          "edge_type": "addresses"
+        },
+        {
+          "source": "examine_evidence",
+          "target": "overgeneralization",
+          "weight": 1,
+          "edge_type": "addresses"
+        }
+      ],
+      "metadata": {
+        "user_id": "user_77693",
+        "journey_type": "improving",
+        "initial_severity": 0.30000000000000004,
+        "final_severity": 0.08,
+        "improvement": 0.22000000000000003,
+        "interventions_assigned": [
+          "thought_records",
+          "examine_evidence"
+        ]
+      }
+    }
+  },
+  "global_graph": {
+    "nodes": [
+      {
+        "id": "should_statements",
+        "type": "distortion",
+        "total_occurrences": 62,
+        "total_confidence": 54.11999999999999
+      },
+      {
+        "id": "disqualifying_the_positive",
+        "type": "distortion",
+        "total_occurrences": 12,
+        "total_confidence": 9.53
+      },
+      {
+        "id": "discounting_the_positive",
+        "type": "distortion",
+        "total_occurrences": 10,
+        "total_confidence": 8.069999999999999
+      },
+      {
+        "id": "hopelessness",
+        "type": "distortion",
+        "total_occurrences": 17,
+        "total_confidence": 15.829999999999997
+      },
+      {
+        "id": "minimization",
+        "type": "distortion",
+        "total_occurrences": 2,
+        "total_confidence": 1.5
+      },
+      {
+        "id": "disqualifying_positive",
+        "type": "distortion",
+        "total_occurrences": 1,
+        "total_confidence": 0.9
+      },
+      {
+        "id": "age_related_expectations",
+        "type": "distortion",
+        "total_occurrences": 1,
+        "total_confidence": 0.85
+      },
+      {
+        "id": "fortune_telling",
+        "type": "distortion",
+        "total_occurrences": 176,
+        "total_confidence": 149.1299999999999
+      },
+      {
+        "id": "suicidal_ideation",
+        "type": "distortion",
+        "total_occurrences": 1,
+        "total_confidence": 0.95
+      },
+      {
+        "id": "jumping_to_conclusions",
+        "type": "distortion",
+        "total_occurrences": 27,
+        "total_confidence": 22.810000000000006
+      },
+      {
+        "id": "all_or_nothing_thinking",
+        "type": "distortion",
+        "total_occurrences": 321,
+        "total_confidence": 274.2899999999994
+      },
+      {
+        "id": "catastrophizing",
+        "type": "distortion",
+        "total_occurrences": 189,
+        "total_confidence": 159.58999999999997
+      },
+      {
+        "id": "comparison",
+        "type": "distortion",
+        "total_occurrences": 1,
+        "total_confidence": 0.9
+      },
+      {
+        "id": "labeling",
+        "type": "distortion",
+        "total_occurrences": 105,
+        "total_confidence": 92.92999999999999
+      },
+      {
+        "id": "emotional_reasoning",
+        "type": "distortion",
+        "total_occurrences": 81,
+        "total_confidence": 62.510000000000005
+      },
+      {
+        "id": "mental_filter",
+        "type": "distortion",
+        "total_occurrences": 107,
+        "total_confidence": 83.85999999999999
+      },
+      {
+        "id": "all_or_nothing",
+        "type": "distortion",
+        "total_occurrences": 4,
+        "total_confidence": 2.85
+      },
+      {
+        "id": "overgeneralization",
+        "type": "distortion",
+        "total_occurrences": 118,
+        "total_confidence": 102.83999999999997
+      },
+      {
+        "id": "negative_prediction",
+        "type": "distortion",
+        "total_occurrences": 1,
+        "total_confidence": 0.8
+      },
+      {
+        "id": "negative_self_talk",
+        "type": "distortion",
+        "total_occurrences": 1,
+        "total_confidence": 0.7
+      },
+      {
+        "id": "personalization",
+        "type": "distortion",
+        "total_occurrences": 58,
+        "total_confidence": 46.71
+      },
+      {
+        "id": "mind_reading",
+        "type": "distortion",
+        "total_occurrences": 194,
+        "total_confidence": 168.47000000000014
+      },
+      {
+        "id": "magnification",
+        "type": "distortion",
+        "total_occurrences": 9,
+        "total_confidence": 7.56
+      },
+      {
+        "id": "comparison_trap",
+        "type": "distortion",
+        "total_occurrences": 1,
+        "total_confidence": 0.83
+      },
+      {
+        "id": "rumination",
+        "type": "distortion",
+        "total_occurrences": 4,
+        "total_confidence": 3.75
+      },
+      {
+        "id": "magical_thinking",
+        "type": "distortion",
+        "total_occurrences": 1,
+        "total_confidence": 0.8
+      },
+      {
+        "id": "exposure_therapy",
+        "type": "intervention",
+        "avg_improvement": 0.6799999999999999
+      },
+      {
+        "id": "behavioral_experiments",
+        "type": "intervention",
+        "avg_improvement": 0.6916666666666668
+      },
+      {
+        "id": "mindfulness",
+        "type": "intervention",
+        "avg_improvement": 0.32297297297297317
+      },
+      {
+        "id": "cognitive_restructuring",
+        "type": "intervention",
+        "avg_improvement": 0.30192307692307707
+      },
+      {
+        "id": "thought_records",
+        "type": "intervention",
+        "avg_improvement": 0.4314666666666668
+      },
+      {
+        "id": "examine_evidence",
+        "type": "intervention",
+        "avg_improvement": 0.4827272727272728
+      }
+    ],
+    "edges": [
+      {
+        "source": "should_statements",
+        "target": "should_statements",
+        "weight": 86,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "disqualifying_the_positive",
+        "target": "labeling",
+        "weight": 12,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "disqualifying_the_positive",
+        "target": "mind_reading",
+        "weight": 14,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "disqualifying_the_positive",
+        "target": "mental_filter",
+        "weight": 9,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "disqualifying_the_positive",
+        "target": "emotional_reasoning",
+        "weight": 2,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "disqualifying_the_positive",
+        "target": "overgeneralization",
+        "weight": 3,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "disqualifying_the_positive",
+        "target": "fortune_telling",
+        "weight": 11,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "disqualifying_the_positive",
+        "target": "personalization",
+        "weight": 2,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "disqualifying_the_positive",
+        "target": "should_statements",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "disqualifying_the_positive",
+        "target": "rumination",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "disqualifying_the_positive",
+        "target": "disqualifying_the_positive",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "discounting_the_positive",
+        "target": "mind_reading",
+        "weight": 4,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "discounting_the_positive",
+        "target": "overgeneralization",
+        "weight": 5,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "discounting_the_positive",
+        "target": "mental_filter",
+        "weight": 4,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "discounting_the_positive",
+        "target": "labeling",
+        "weight": 2,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "discounting_the_positive",
+        "target": "fortune_telling",
+        "weight": 9,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "discounting_the_positive",
+        "target": "should_statements",
+        "weight": 4,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "discounting_the_positive",
+        "target": "jumping_to_conclusions",
+        "weight": 2,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "discounting_the_positive",
+        "target": "personalization",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "hopelessness",
+        "target": "labeling",
+        "weight": 18,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "hopelessness",
+        "target": "overgeneralization",
+        "weight": 17,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "hopelessness",
+        "target": "mental_filter",
+        "weight": 16,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "hopelessness",
+        "target": "suicidal_ideation",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "hopelessness",
+        "target": "magnification",
+        "weight": 3,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "hopelessness",
+        "target": "hopelessness",
+        "weight": 2,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "hopelessness",
+        "target": "mind_reading",
+        "weight": 3,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "hopelessness",
+        "target": "jumping_to_conclusions",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "minimization",
+        "target": "should_statements",
+        "weight": 4,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "minimization",
+        "target": "personalization",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "disqualifying_positive",
+        "target": "mind_reading",
+        "weight": 3,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "disqualifying_positive",
+        "target": "emotional_reasoning",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "disqualifying_positive",
+        "target": "fortune_telling",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "age_related_expectations",
+        "target": "should_statements",
+        "weight": 4,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "age_related_expectations",
+        "target": "emotional_reasoning",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "fortune_telling",
+        "target": "labeling",
+        "weight": 109,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "fortune_telling",
+        "target": "overgeneralization",
+        "weight": 139,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "fortune_telling",
+        "target": "mental_filter",
+        "weight": 106,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "fortune_telling",
+        "target": "hopelessness",
+        "weight": 24,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "fortune_telling",
+        "target": "suicidal_ideation",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "fortune_telling",
+        "target": "fortune_telling",
+        "weight": 47,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "fortune_telling",
+        "target": "mind_reading",
+        "weight": 126,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "fortune_telling",
+        "target": "personalization",
+        "weight": 43,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "fortune_telling",
+        "target": "jumping_to_conclusions",
+        "weight": 13,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "fortune_telling",
+        "target": "rumination",
+        "weight": 3,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "fortune_telling",
+        "target": "should_statements",
+        "weight": 6,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "fortune_telling",
+        "target": "magnification",
+        "weight": 9,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "jumping_to_conclusions",
+        "target": "overgeneralization",
+        "weight": 12,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "jumping_to_conclusions",
+        "target": "mental_filter",
+        "weight": 12,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "jumping_to_conclusions",
+        "target": "personalization",
+        "weight": 19,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "jumping_to_conclusions",
+        "target": "labeling",
+        "weight": 8,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "jumping_to_conclusions",
+        "target": "mind_reading",
+        "weight": 36,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "jumping_to_conclusions",
+        "target": "should_statements",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "jumping_to_conclusions",
+        "target": "jumping_to_conclusions",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "jumping_to_conclusions",
+        "target": "negative_self_talk",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "all_or_nothing_thinking",
+        "target": "fortune_telling",
+        "weight": 272,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "all_or_nothing_thinking",
+        "target": "labeling",
+        "weight": 208,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "all_or_nothing_thinking",
+        "target": "overgeneralization",
+        "weight": 183,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "all_or_nothing_thinking",
+        "target": "mental_filter",
+        "weight": 180,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "all_or_nothing_thinking",
+        "target": "hopelessness",
+        "weight": 44,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "all_or_nothing_thinking",
+        "target": "emotional_reasoning",
+        "weight": 96,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "all_or_nothing_thinking",
+        "target": "catastrophizing",
+        "weight": 247,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "all_or_nothing_thinking",
+        "target": "suicidal_ideation",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "all_or_nothing_thinking",
+        "target": "all_or_nothing_thinking",
+        "weight": 216,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "all_or_nothing_thinking",
+        "target": "mind_reading",
+        "weight": 157,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "all_or_nothing_thinking",
+        "target": "personalization",
+        "weight": 51,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "all_or_nothing_thinking",
+        "target": "jumping_to_conclusions",
+        "weight": 30,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "all_or_nothing_thinking",
+        "target": "rumination",
+        "weight": 5,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "all_or_nothing_thinking",
+        "target": "discounting_the_positive",
+        "weight": 9,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "all_or_nothing_thinking",
+        "target": "disqualifying_the_positive",
+        "weight": 20,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "all_or_nothing_thinking",
+        "target": "should_statements",
+        "weight": 51,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "all_or_nothing_thinking",
+        "target": "comparison",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "all_or_nothing_thinking",
+        "target": "magnification",
+        "weight": 24,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "all_or_nothing_thinking",
+        "target": "comparison_trap",
+        "weight": 2,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "all_or_nothing_thinking",
+        "target": "minimization",
+        "weight": 2,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "all_or_nothing_thinking",
+        "target": "negative_prediction",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "catastrophizing",
+        "target": "fortune_telling",
+        "weight": 139,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "catastrophizing",
+        "target": "labeling",
+        "weight": 80,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "catastrophizing",
+        "target": "overgeneralization",
+        "weight": 90,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "catastrophizing",
+        "target": "mental_filter",
+        "weight": 94,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "catastrophizing",
+        "target": "hopelessness",
+        "weight": 15,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "catastrophizing",
+        "target": "emotional_reasoning",
+        "weight": 46,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "catastrophizing",
+        "target": "suicidal_ideation",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "catastrophizing",
+        "target": "mind_reading",
+        "weight": 147,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "catastrophizing",
+        "target": "personalization",
+        "weight": 42,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "catastrophizing",
+        "target": "jumping_to_conclusions",
+        "weight": 19,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "catastrophizing",
+        "target": "catastrophizing",
+        "weight": 46,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "catastrophizing",
+        "target": "rumination",
+        "weight": 2,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "catastrophizing",
+        "target": "disqualifying_the_positive",
+        "weight": 10,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "catastrophizing",
+        "target": "should_statements",
+        "weight": 23,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "catastrophizing",
+        "target": "comparison",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "catastrophizing",
+        "target": "magnification",
+        "weight": 8,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "catastrophizing",
+        "target": "discounting_the_positive",
+        "weight": 7,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "catastrophizing",
+        "target": "disqualifying_positive",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "catastrophizing",
+        "target": "magical_thinking",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "catastrophizing",
+        "target": "minimization",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "comparison",
+        "target": "mental_filter",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "comparison",
+        "target": "jumping_to_conclusions",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "comparison",
+        "target": "personalization",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "comparison",
+        "target": "emotional_reasoning",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "comparison",
+        "target": "should_statements",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "labeling",
+        "target": "overgeneralization",
+        "weight": 79,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "labeling",
+        "target": "mental_filter",
+        "weight": 69,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "labeling",
+        "target": "suicidal_ideation",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "labeling",
+        "target": "labeling",
+        "weight": 32,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "labeling",
+        "target": "personalization",
+        "weight": 21,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "labeling",
+        "target": "mind_reading",
+        "weight": 66,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "labeling",
+        "target": "rumination",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "labeling",
+        "target": "should_statements",
+        "weight": 25,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "labeling",
+        "target": "magnification",
+        "weight": 11,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "labeling",
+        "target": "minimization",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "emotional_reasoning",
+        "target": "fortune_telling",
+        "weight": 55,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "emotional_reasoning",
+        "target": "labeling",
+        "weight": 39,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "emotional_reasoning",
+        "target": "overgeneralization",
+        "weight": 23,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "emotional_reasoning",
+        "target": "mental_filter",
+        "weight": 31,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "emotional_reasoning",
+        "target": "hopelessness",
+        "weight": 4,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "emotional_reasoning",
+        "target": "suicidal_ideation",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "emotional_reasoning",
+        "target": "mind_reading",
+        "weight": 48,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "emotional_reasoning",
+        "target": "personalization",
+        "weight": 15,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "emotional_reasoning",
+        "target": "rumination",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "emotional_reasoning",
+        "target": "jumping_to_conclusions",
+        "weight": 12,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "emotional_reasoning",
+        "target": "emotional_reasoning",
+        "weight": 8,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "emotional_reasoning",
+        "target": "should_statements",
+        "weight": 26,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "emotional_reasoning",
+        "target": "magnification",
+        "weight": 2,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "emotional_reasoning",
+        "target": "negative_self_talk",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "mental_filter",
+        "target": "overgeneralization",
+        "weight": 80,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "mental_filter",
+        "target": "suicidal_ideation",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "mental_filter",
+        "target": "mind_reading",
+        "weight": 64,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "mental_filter",
+        "target": "personalization",
+        "weight": 30,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "mental_filter",
+        "target": "rumination",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "mental_filter",
+        "target": "should_statements",
+        "weight": 33,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "mental_filter",
+        "target": "mental_filter",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "mental_filter",
+        "target": "minimization",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "all_or_nothing",
+        "target": "mind_reading",
+        "weight": 10,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "all_or_nothing",
+        "target": "fortune_telling",
+        "weight": 5,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "all_or_nothing",
+        "target": "personalization",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "all_or_nothing",
+        "target": "labeling",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "all_or_nothing",
+        "target": "mental_filter",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "all_or_nothing",
+        "target": "catastrophizing",
+        "weight": 5,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "all_or_nothing",
+        "target": "emotional_reasoning",
+        "weight": 2,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "all_or_nothing",
+        "target": "disqualifying_positive",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "overgeneralization",
+        "target": "suicidal_ideation",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "overgeneralization",
+        "target": "overgeneralization",
+        "weight": 31,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "overgeneralization",
+        "target": "personalization",
+        "weight": 37,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "overgeneralization",
+        "target": "rumination",
+        "weight": 3,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "overgeneralization",
+        "target": "should_statements",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "negative_self_talk",
+        "target": "personalization",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "personalization",
+        "target": "personalization",
+        "weight": 2,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "personalization",
+        "target": "rumination",
+        "weight": 2,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "personalization",
+        "target": "should_statements",
+        "weight": 10,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "mind_reading",
+        "target": "overgeneralization",
+        "weight": 74,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "mind_reading",
+        "target": "mind_reading",
+        "weight": 116,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "mind_reading",
+        "target": "personalization",
+        "weight": 83,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "mind_reading",
+        "target": "rumination",
+        "weight": 9,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "mind_reading",
+        "target": "should_statements",
+        "weight": 12,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "mind_reading",
+        "target": "negative_self_talk",
+        "weight": 3,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "mind_reading",
+        "target": "negative_prediction",
+        "weight": 2,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "magnification",
+        "target": "overgeneralization",
+        "weight": 3,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "magnification",
+        "target": "mental_filter",
+        "weight": 5,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "magnification",
+        "target": "mind_reading",
+        "weight": 2,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "magnification",
+        "target": "should_statements",
+        "weight": 2,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "comparison_trap",
+        "target": "overgeneralization",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "comparison_trap",
+        "target": "fortune_telling",
+        "weight": 2,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "comparison_trap",
+        "target": "mental_filter",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "comparison_trap",
+        "target": "emotional_reasoning",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "comparison_trap",
+        "target": "labeling",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "comparison_trap",
+        "target": "hopelessness",
+        "weight": 1,
+        "edge_type": "co_occurs"
+      },
+      {
+        "source": "exposure_therapy",
+        "target": "catastrophizing",
+        "weight": 14,
+        "edge_type": "targets",
+        "effectiveness": 0.6799999999999999
+      },
+      {
+        "source": "exposure_therapy",
+        "target": "all_or_nothing_thinking",
+        "weight": 2,
+        "edge_type": "targets",
+        "effectiveness": 0.6799999999999999
+      },
+      {
+        "source": "exposure_therapy",
+        "target": "mental_filter",
+        "weight": 3,
+        "edge_type": "targets",
+        "effectiveness": 0.6799999999999999
+      },
+      {
+        "source": "exposure_therapy",
+        "target": "fortune_telling",
+        "weight": 3,
+        "edge_type": "targets",
+        "effectiveness": 0.6799999999999999
+      },
+      {
+        "source": "behavioral_experiments",
+        "target": "should_statements",
+        "weight": 8,
+        "edge_type": "targets",
+        "effectiveness": 0.6916666666666668
+      },
+      {
+        "source": "behavioral_experiments",
+        "target": "mental_filter",
+        "weight": 2,
+        "edge_type": "targets",
+        "effectiveness": 0.6916666666666668
+      },
+      {
+        "source": "behavioral_experiments",
+        "target": "catastrophizing",
+        "weight": 9,
+        "edge_type": "targets",
+        "effectiveness": 0.6916666666666668
+      },
+      {
+        "source": "behavioral_experiments",
+        "target": "all_or_nothing_thinking",
+        "weight": 2,
+        "edge_type": "targets",
+        "effectiveness": 0.6916666666666668
+      },
+      {
+        "source": "behavioral_experiments",
+        "target": "fortune_telling",
+        "weight": 2,
+        "edge_type": "targets",
+        "effectiveness": 0.6916666666666668
+      },
+      {
+        "source": "mindfulness",
+        "target": "fortune_telling",
+        "weight": 26,
+        "edge_type": "targets",
+        "effectiveness": 0.32297297297297317
+      },
+      {
+        "source": "mindfulness",
+        "target": "emotional_reasoning",
+        "weight": 29,
+        "edge_type": "targets",
+        "effectiveness": 0.32297297297297317
+      },
+      {
+        "source": "mindfulness",
+        "target": "labeling",
+        "weight": 5,
+        "edge_type": "targets",
+        "effectiveness": 0.32297297297297317
+      },
+      {
+        "source": "mindfulness",
+        "target": "catastrophizing",
+        "weight": 37,
+        "edge_type": "targets",
+        "effectiveness": 0.32297297297297317
+      },
+      {
+        "source": "mindfulness",
+        "target": "all_or_nothing_thinking",
+        "weight": 28,
+        "edge_type": "targets",
+        "effectiveness": 0.32297297297297317
+      },
+      {
+        "source": "mindfulness",
+        "target": "should_statements",
+        "weight": 7,
+        "edge_type": "targets",
+        "effectiveness": 0.32297297297297317
+      },
+      {
+        "source": "mindfulness",
+        "target": "mental_filter",
+        "weight": 18,
+        "edge_type": "targets",
+        "effectiveness": 0.32297297297297317
+      },
+      {
+        "source": "mindfulness",
+        "target": "overgeneralization",
+        "weight": 5,
+        "edge_type": "targets",
+        "effectiveness": 0.32297297297297317
+      },
+      {
+        "source": "mindfulness",
+        "target": "disqualifying_the_positive",
+        "weight": 3,
+        "edge_type": "targets",
+        "effectiveness": 0.32297297297297317
+      },
+      {
+        "source": "mindfulness",
+        "target": "mind_reading",
+        "weight": 2,
+        "edge_type": "targets",
+        "effectiveness": 0.32297297297297317
+      },
+      {
+        "source": "mindfulness",
+        "target": "discounting_the_positive",
+        "weight": 2,
+        "edge_type": "targets",
+        "effectiveness": 0.32297297297297317
+      },
+      {
+        "source": "cognitive_restructuring",
+        "target": "fortune_telling",
+        "weight": 12,
+        "edge_type": "targets",
+        "effectiveness": 0.30192307692307707
+      },
+      {
+        "source": "cognitive_restructuring",
+        "target": "emotional_reasoning",
+        "weight": 22,
+        "edge_type": "targets",
+        "effectiveness": 0.30192307692307707
+      },
+      {
+        "source": "cognitive_restructuring",
+        "target": "should_statements",
+        "weight": 7,
+        "edge_type": "targets",
+        "effectiveness": 0.30192307692307707
+      },
+      {
+        "source": "cognitive_restructuring",
+        "target": "all_or_nothing_thinking",
+        "weight": 18,
+        "edge_type": "targets",
+        "effectiveness": 0.30192307692307707
+      },
+      {
+        "source": "cognitive_restructuring",
+        "target": "catastrophizing",
+        "weight": 22,
+        "edge_type": "targets",
+        "effectiveness": 0.30192307692307707
+      },
+      {
+        "source": "cognitive_restructuring",
+        "target": "mind_reading",
+        "weight": 2,
+        "edge_type": "targets",
+        "effectiveness": 0.30192307692307707
+      },
+      {
+        "source": "cognitive_restructuring",
+        "target": "mental_filter",
+        "weight": 9,
+        "edge_type": "targets",
+        "effectiveness": 0.30192307692307707
+      },
+      {
+        "source": "cognitive_restructuring",
+        "target": "labeling",
+        "weight": 4,
+        "edge_type": "targets",
+        "effectiveness": 0.30192307692307707
+      },
+      {
+        "source": "cognitive_restructuring",
+        "target": "overgeneralization",
+        "weight": 5,
+        "edge_type": "targets",
+        "effectiveness": 0.30192307692307707
+      },
+      {
+        "source": "thought_records",
+        "target": "all_or_nothing_thinking",
+        "weight": 221,
+        "edge_type": "targets",
+        "effectiveness": 0.4314666666666668
+      },
+      {
+        "source": "thought_records",
+        "target": "fortune_telling",
+        "weight": 120,
+        "edge_type": "targets",
+        "effectiveness": 0.4314666666666668
+      },
+      {
+        "source": "thought_records",
+        "target": "labeling",
+        "weight": 69,
+        "edge_type": "targets",
+        "effectiveness": 0.4314666666666668
+      },
+      {
+        "source": "thought_records",
+        "target": "overgeneralization",
+        "weight": 96,
+        "edge_type": "targets",
+        "effectiveness": 0.4314666666666668
+      },
+      {
+        "source": "thought_records",
+        "target": "mental_filter",
+        "weight": 67,
+        "edge_type": "targets",
+        "effectiveness": 0.4314666666666668
+      },
+      {
+        "source": "thought_records",
+        "target": "hopelessness",
+        "weight": 16,
+        "edge_type": "targets",
+        "effectiveness": 0.4314666666666668
+      },
+      {
+        "source": "thought_records",
+        "target": "emotional_reasoning",
+        "weight": 27,
+        "edge_type": "targets",
+        "effectiveness": 0.4314666666666668
+      },
+      {
+        "source": "thought_records",
+        "target": "catastrophizing",
+        "weight": 106,
+        "edge_type": "targets",
+        "effectiveness": 0.4314666666666668
+      },
+      {
+        "source": "thought_records",
+        "target": "mind_reading",
+        "weight": 161,
+        "edge_type": "targets",
+        "effectiveness": 0.4314666666666668
+      },
+      {
+        "source": "thought_records",
+        "target": "personalization",
+        "weight": 46,
+        "edge_type": "targets",
+        "effectiveness": 0.4314666666666668
+      },
+      {
+        "source": "thought_records",
+        "target": "jumping_to_conclusions",
+        "weight": 18,
+        "edge_type": "targets",
+        "effectiveness": 0.4314666666666668
+      },
+      {
+        "source": "thought_records",
+        "target": "rumination",
+        "weight": 4,
+        "edge_type": "targets",
+        "effectiveness": 0.4314666666666668
+      },
+      {
+        "source": "thought_records",
+        "target": "discounting_the_positive",
+        "weight": 4,
+        "edge_type": "targets",
+        "effectiveness": 0.4314666666666668
+      },
+      {
+        "source": "thought_records",
+        "target": "magnification",
+        "weight": 8,
+        "edge_type": "targets",
+        "effectiveness": 0.4314666666666668
+      },
+      {
+        "source": "thought_records",
+        "target": "should_statements",
+        "weight": 8,
+        "edge_type": "targets",
+        "effectiveness": 0.4314666666666668
+      },
+      {
+        "source": "thought_records",
+        "target": "disqualifying_the_positive",
+        "weight": 6,
+        "edge_type": "targets",
+        "effectiveness": 0.4314666666666668
+      },
+      {
+        "source": "thought_records",
+        "target": "all_or_nothing",
+        "weight": 4,
+        "edge_type": "targets",
+        "effectiveness": 0.4314666666666668
+      },
+      {
+        "source": "examine_evidence",
+        "target": "catastrophizing",
+        "weight": 8,
+        "edge_type": "targets",
+        "effectiveness": 0.4827272727272728
+      },
+      {
+        "source": "examine_evidence",
+        "target": "jumping_to_conclusions",
+        "weight": 4,
+        "edge_type": "targets",
+        "effectiveness": 0.4827272727272728
+      },
+      {
+        "source": "examine_evidence",
+        "target": "all_or_nothing_thinking",
+        "weight": 6,
+        "edge_type": "targets",
+        "effectiveness": 0.4827272727272728
+      },
+      {
+        "source": "examine_evidence",
+        "target": "mind_reading",
+        "weight": 33,
+        "edge_type": "targets",
+        "effectiveness": 0.4827272727272728
+      },
+      {
+        "source": "examine_evidence",
+        "target": "personalization",
+        "weight": 3,
+        "edge_type": "targets",
+        "effectiveness": 0.4827272727272728
+      },
+      {
+        "source": "examine_evidence",
+        "target": "labeling",
+        "weight": 2,
+        "edge_type": "targets",
+        "effectiveness": 0.4827272727272728
+      },
+      {
+        "source": "examine_evidence",
+        "target": "overgeneralization",
+        "weight": 7,
+        "edge_type": "targets",
+        "effectiveness": 0.4827272727272728
+      }
+    ]
+  },
+  "intervention_effectiveness": {
+    "exposure_therapy": {
+      "avg_improvement": 0.6799999999999999,
+      "targets": [
+        "catastrophizing",
+        "all_or_nothing_thinking",
+        "mental_filter",
+        "fortune_telling"
+      ]
+    },
+    "behavioral_experiments": {
+      "avg_improvement": 0.6916666666666668,
+      "targets": [
+        "should_statements",
+        "mental_filter",
+        "catastrophizing",
+        "all_or_nothing_thinking",
+        "fortune_telling"
+      ]
+    },
+    "mindfulness": {
+      "avg_improvement": 0.32297297297297317,
+      "targets": [
+        "fortune_telling",
+        "emotional_reasoning",
+        "labeling",
+        "catastrophizing",
+        "all_or_nothing_thinking",
+        "should_statements",
+        "mental_filter",
+        "overgeneralization",
+        "disqualifying_the_positive",
+        "mind_reading",
+        "discounting_the_positive"
+      ]
+    },
+    "cognitive_restructuring": {
+      "avg_improvement": 0.30192307692307707,
+      "targets": [
+        "fortune_telling",
+        "emotional_reasoning",
+        "should_statements",
+        "all_or_nothing_thinking",
+        "catastrophizing",
+        "mind_reading",
+        "mental_filter",
+        "labeling",
+        "overgeneralization"
+      ]
+    },
+    "thought_records": {
+      "avg_improvement": 0.4314666666666668,
+      "targets": [
+        "all_or_nothing_thinking",
+        "fortune_telling",
+        "labeling",
+        "overgeneralization",
+        "mental_filter",
+        "hopelessness",
+        "emotional_reasoning",
+        "catastrophizing",
+        "mind_reading",
+        "personalization",
+        "jumping_to_conclusions",
+        "rumination",
+        "discounting_the_positive",
+        "magnification",
+        "should_statements",
+        "disqualifying_the_positive",
+        "all_or_nothing"
+      ]
+    },
+    "examine_evidence": {
+      "avg_improvement": 0.4827272727272728,
+      "targets": [
+        "catastrophizing",
+        "jumping_to_conclusions",
+        "all_or_nothing_thinking",
+        "mind_reading",
+        "personalization",
+        "labeling",
+        "overgeneralization"
+      ]
+    }
+  },
+  "metadata": {
+    "created": "2026-01-04T08:53:09.521413",
+    "num_users": 10
+  }
+}
