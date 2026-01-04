@@ -1,6 +1,5 @@
 # GeAR: Graph-Enhanced Agent for Retrieval - Cognitive Distortion Network
 
-## Overview
 GeAR applies graph-enhanced retrieval to mental health, mapping cognitive distortions (commonly present in depression, anxiety and other mental health disorders) as interconnected networks to provide personalized intervention recommendations.
 
 ## What the Code Does
@@ -10,10 +9,9 @@ GeAR applies graph-enhanced retrieval to mental health, mapping cognitive distor
 - Retrieves interventions based on graph topology similarity, not just semantic matching
 - Visualizes networks in interactive 3D (distortions + interventions + effectiveness)
 
-## Key Innovation
-Why GeAR and not naive RAG? GeAR matches structural patterns: users with similar distortion network topologies get interventions that worked for others with the same graph structure.
+## Why GeAR and not naive RAG?
+GeAR matches structural patterns: users with similar distortion network topologies get interventions that worked for others with the same graph structure.
 
-## Architecture
 1. **Data Pipeline**: Kaggle mental health dataset → distortion extraction → synthetic longitudinal generation
 2. **Graph Layer**: Personal graphs (per-user networks) + Global graph (population patterns) + Intervention graph (what targets what)
 3. **Retrieval**: Multi-metric graph similarity (node overlap, edge overlap, centrality matching)
@@ -25,11 +23,6 @@ Why GeAR and not naive RAG? GeAR matches structural patterns: users with similar
 - Three.js for 3D visualization
 - Graph algorithms: centrality analysis, cascade detection, subgraph matching
 
-## Outputs
-- Keystone distortions
-- Cascade patterns aka thought spiralling
-- Intervention recommendations with success rates
-- Temporal progression tracking
 
 ## Current Status
 - 500 labeled statements with distortions from a Kaggle dataset
