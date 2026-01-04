@@ -19,7 +19,6 @@ TEST_JOURNEY = {
 }
 
 def generate_entry(week: int, initial_severity: float, journey: dict):
-    """Generate one journal entry"""
 
     progress = week / journey['duration_weeks']
     severity_change = journey['distortion_change'] * progress
@@ -53,7 +52,6 @@ Return ONLY the journal entry text."""
         return None
 
 def extract_distortions_quick(text: str):
-    """Quick distortion extraction"""
     
     prompt = f"""Extract cognitive distortions from: "{text}"
 
@@ -124,9 +122,9 @@ def test_single_journey():
         print(f"Change: {change:+.2f} ({abs(change/initial)*100:.1f}%)")
         
         if change < 0:
-            print("✅ Improvement trajectory detected")
+            print("Improvement trajectory")
         else:
-            print("⚠️  Worsening trajectory detected")
+            print("Worsening trajectory")
     
 
     for entry in entries:

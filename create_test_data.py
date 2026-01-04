@@ -30,6 +30,3 @@ test_data = [
 
 df = pd.DataFrame(test_data)
 df.to_csv('test_dataset.csv', index=False)
-
-print("✅ Created test_dataset.csv with 5 statements")
-print(df)
