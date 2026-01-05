@@ -1,6 +1,6 @@
 # GeAR: Graph-Enhanced Agent for Retrieval: Synthetic Cognitive Distortion Network
 
-GeAR applies graph-enhanced retrieval to mental health, mapping cognitive distortions (commonly present in depression, anxiety and other mental health disorders) as interconnected networks to provide (in this case, hypothetical) tratement recommendations. GeAR matches structural patterns: users with similar distortion network topologies get interventions that worked for others with the same graph structure.
+GeAR applies graph-enhanced retrieval to mental health, mapping cognitive distortions (commonly present in depression, anxiety and other mental health disorders) as interconnected networks to provide (in this case, hypothetical) treatment recommendations. GeAR matches structural patterns: users with similar distortion network topologies get interventions that worked for others with the same graph structure.
 
 ## What is Happening
 - Extracts cognitive distortions from text using LLMs (Claude API) from a ([Kaggle Dataset](https://www.kaggle.com/datasets/suchintikasarkar/sentiment-analysis-for-mental-health?resource=download))
