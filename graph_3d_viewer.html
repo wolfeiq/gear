@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <style>
-    body { margin: 0; overflow: hidden; font-family: Arial; background: #0a0a0a; }
+    body { margin: 0; overflow: hidden; font-family: Arial; background: #2a2428; }
     #info {
       position: absolute; top: 10px; left: 10px;
       background: rgba(0,0,0,0.9); color: white;
@@ -16,49 +16,48 @@
       padding: 15px; border-radius: 8px; z-index: 100;
     }
     button {
-      background: #4CAF50; color: white; border: none;
+      background: #8b3a62; color: white; border: none;
       padding: 8px 15px; margin: 5px 0; cursor: pointer;
       border-radius: 4px; width: 100%; font-size: 12px;
     }
-    button:hover { background: #45a049; }
-    button.active { background: #2196F3; }
+    button:hover { background: #9b5876; }
+    button.active { background: #722f4d; }
     #fileInput { padding: 5px; margin: 10px 0; color: white; width: 100%; font-size: 12px; }
     .legend { margin-top: 10px; padding-top: 10px; border-top: 1px solid #444; font-size: 11px; }
     .legend-item { margin: 5px 0; display: flex; align-items: center; }
     .legend-color { width: 15px; height: 15px; margin-right: 8px; border-radius: 3px; }
-    .metric { color: #4CAF50; font-weight: bold; }
+    .metric { color: #9b5876; font-weight: bold; }
   </style>
 </head>
 <body>
   <div id="info">
-    <h3 style="margin-top:0">Intervention Network 3D</h3>
-    <p style="font-size:12px; margin: 8px 0">
-    🖱️ Drag | 🔍 Scroll | 👆 Click nodes</p>
+    <h3 style="margin-top:0">Cognitive Distortions</h3>
     <div id="nodeInfo"></div>
     <div class="legend">
       <div class="legend-item">
-        <div class="legend-color" style="background:#44aaff"></div>
+        <div class="legend-color" style="background:#b08090"></div>
         <span>Distortions (size = frequency)</span>
       </div>
       <div class="legend-item">
-        <div class="legend-color" style="background:#44ff44"></div>
+        <div class="legend-color" style="background:#8b3a62"></div>
         <span>Interventions (size = effectiveness)</span>
       </div>
       <strong>Edges:</strong><br>
       <div class="legend-item">
-        <div class="legend-color" style="background:#00aaff"></div>
-        <span>Blue (thick) = strong co-occurrence (with cascade arrow)</span>
+        <div class="legend-color" style="background:#9b5876"></div>
+        <span>Wine arrows = strong (aka thick) co-occurrence (with cascade arrow)</span>
       </div>
-      Green arrows = intervention targets distortion
+      <div class="legend-item">
+        <div class="legend-color" style="background:#8b3a62"></div>
+        <span>Burgundy arrows = intervention targets distortion</span>
+      </div>
+      
     </div>
   </div>
   
   <div id="controls">
     <h4 style="margin-top:0">Controls</h4>
     <input type="file" id="fileInput" accept=".json">
-    <button onclick="resetCamera()">Reset View</button>
-    <button onclick="toggleLabels()">Toggle Labels</button>
-    <button id="highlightBtn" onclick="toggleHighlight()">Highlight Mode: OFF</button>
     <button onclick="showDistortionsOnly()">Distortions Only</button>
     <div id="stats" style="margin-top:10px; font-size:11px; color:#aaa;"></div>
   </div>
@@ -75,8 +74,19 @@
 
     function init() {
       scene = new THREE.Scene();
-      scene.background = new THREE.Color(0x0a0a0a);
-      scene.fog = new THREE.Fog(0x0a0a0a, 60, 180);
+      const canvas = document.createElement('canvas');
+      canvas.width = 512;
+      canvas.height = 512;
+      const ctx = canvas.getContext('2d');
+      const gradient = ctx.createRadialGradient(256, 256, 0, 256, 256, 256);
+      gradient.addColorStop(0, '#3d3438');
+      gradient.addColorStop(0.5, '#2a2428');
+      gradient.addColorStop(1, '#1a1418');
+      ctx.fillStyle = gradient;
+      ctx.fillRect(0, 0, 512, 512);
+      const bgTexture = new THREE.CanvasTexture(canvas);
+      scene.background = bgTexture;
+      scene.fog = new THREE.Fog(0x2a2428, 80, 200);
 
       camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
       camera.position.z = 70;
@@ -84,17 +94,20 @@
       renderer = new THREE.WebGLRenderer({ antialias: true });
       renderer.setSize(window.innerWidth, window.innerHeight);
       document.body.appendChild(renderer.domElement);
-
-      const ambientLight = new THREE.AmbientLight(0x404040, 2);
+      const ambientLight = new THREE.AmbientLight(0xfff5e6, 1.2);
       scene.add(ambientLight);
+      const keyLight = new THREE.DirectionalLight(0xffd9b3, 0.8);
+      keyLight.position.set(50, 60, 40);
+      scene.add(keyLight);
+      const fillLight = new THREE.DirectionalLight(0xffe6cc, 0.5);
+      fillLight.position.set(-40, 30, 30);
+      scene.add(fillLight);
+      const rimLight = new THREE.PointLight(0x8b3a62, 0.6);
+      rimLight.position.set(0, -50, 50);
+      scene.add(rimLight);
       
-      const pointLight = new THREE.PointLight(0xffffff, 1.5);
-      pointLight.position.set(50, 50, 50);
-      scene.add(pointLight);
-
-      const pointLight2 = new THREE.PointLight(0x44ff44, 0.5);
-      pointLight2.position.set(-50, -50, 50);
-      scene.add(pointLight2);
+      const bottomLight = new THREE.HemisphereLight(0xfff5e6, 0x4a3a42, 0.4);
+      scene.add(bottomLight);
 
       setupControls();
       document.getElementById('fileInput').addEventListener('change', handleFileSelect);
@@ -173,11 +186,9 @@
     function createGraph(graphNodes, graphEdges) {
       const radius = 45;
       
-
       const distortions = graphNodes.filter(n => n.type === 'distortion');
       const interventions = graphNodes.filter(n => n.type === 'intervention');
       
- 
       distortions.forEach((node, i) => {
         const phi = Math.acos(-1 + (2 * i) / distortions.length);
         const theta = Math.sqrt(distortions.length * Math.PI) * phi;
@@ -190,21 +201,22 @@
         const size = 1 + Math.log(occurrences + 1) * 0.5;
         
         const geometry = new THREE.SphereGeometry(size, 32, 32);
-        const material = new THREE.MeshPhongMaterial({ 
-          color: 0x4444ff,
-          emissive: 0x2222aa,
-          emissiveIntensity: 0.4,
-          shininess: 60
+        const material = new THREE.MeshStandardMaterial({ 
+          color: 0xb08090,
+          metalness: 0.3,
+          roughness: 0.2,
+          emissive: 0x6b4555,
+          emissiveIntensity: 0.2,
+          envMapIntensity: 1.5
         });
         const sphere = new THREE.Mesh(geometry, material);
         sphere.position.set(x, y, z);
-        sphere.userData = { ...node, originalColor: 0x4444ff };
+        sphere.userData = { ...node, originalColor: 0xb08090 };
         scene.add(sphere);
         nodes.push(sphere);
 
         if (showLabels) createLabel(node, x, y + size + 2, z, 0.5);
       });
-
 
       if (!showOnlyDistortions) {
         interventions.forEach((node, i) => {
@@ -218,26 +230,28 @@
 
           const effectiveness = node.avg_improvement || 0;
           const size = 1.5 + Math.abs(effectiveness) * 3;
-          
+
           const geometry = new THREE.SphereGeometry(size, 32, 32);
-          const material = new THREE.MeshPhongMaterial({ 
-            color: 0x44ff44,
-            emissive: 0x22aa22,
-            emissiveIntensity: 0.5 + Math.abs(effectiveness) * 0.3,
-            shininess: 80
+          const material = new THREE.MeshStandardMaterial({ 
+            color: 0x8b3a62,
+            metalness: 0.4,
+            roughness: 0.15,
+            emissive: 0x5a2442,
+            emissiveIntensity: 0.3 + Math.abs(effectiveness) * 0.4,
+            envMapIntensity: 2
           });
           const sphere = new THREE.Mesh(geometry, material);
           sphere.position.set(x, y, z);
-          sphere.userData = { ...node, originalColor: 0x44ff44 };
+          sphere.userData = { ...node, originalColor: 0x8b3a62 };
           scene.add(sphere);
           nodes.push(sphere);
 
           if (effectiveness > 0.3) {
-            const glowGeometry = new THREE.SphereGeometry(size * 1.4, 32, 32);
+            const glowGeometry = new THREE.SphereGeometry(size * 1.3, 32, 32);
             const glowMaterial = new THREE.MeshBasicMaterial({
-              color: 0x44ff44,
+              color: 0x9b5876,
               transparent: true,
-              opacity: 0.3
+              opacity: 0.2
             });
             const glow = new THREE.Mesh(glowGeometry, glowMaterial);
             glow.position.set(x, y, z);
@@ -254,7 +268,6 @@
       const maxCoOccur = Math.max(...coOccurEdges.map(e => e.weight || 1), 1);
       const maxTarget = Math.max(...targetEdges.map(e => e.weight || 1), 1);
 
-
       coOccurEdges.forEach(edge => {
         const sourceNode = nodes.find(n => n.userData.id === edge.source);
         const targetNode = nodes.find(n => n.userData.id === edge.target);
@@ -263,16 +276,20 @@
           const weight = edge.weight || 1;
           const normalizedWidth = (weight / maxCoOccur) * 0.3 + 0.05;
           
-          const BRIGHT_BLUE = 0x00aaff;
+          const WINE_COLOR = 0x9b5876;
 
           const path = new THREE.LineCurve3(sourceNode.position, targetNode.position);
-          const tubeGeometry = new THREE.TubeGeometry(path, 1, normalizedWidth, 8, false);
+          const tubeGeometry = new THREE.TubeGeometry(path, 16, normalizedWidth, 12, false);
 
-          const opacity = 0.5 + (weight / maxCoOccur) * 0.4; 
-          const material = new THREE.MeshBasicMaterial({ 
-            color: BRIGHT_BLUE,
+          const opacity = 0.4 + (weight / maxCoOccur) * 0.5; 
+          const material = new THREE.MeshStandardMaterial({ 
+            color: WINE_COLOR,
+            metalness: 0.5,
+            roughness: 0.3,
             transparent: true,
-            opacity: opacity
+            opacity: opacity,
+            emissive: WINE_COLOR,
+            emissiveIntensity: 0.2
           });
           
           const tube = new THREE.Mesh(tubeGeometry, material);
@@ -292,11 +309,15 @@
           );
           
           const arrowSize = 0.4 + (weight / maxCoOccur) * 0.7; 
-          const arrowGeometry = new THREE.ConeGeometry(arrowSize, arrowSize * 1.5, 8);
-          const arrowMaterial = new THREE.MeshBasicMaterial({ 
-            color: BRIGHT_BLUE,
+          const arrowGeometry = new THREE.ConeGeometry(arrowSize, arrowSize * 1.5, 12);
+          const arrowMaterial = new THREE.MeshStandardMaterial({ 
+            color: WINE_COLOR,
+            metalness: 0.6,
+            roughness: 0.2,
             transparent: true,
-            opacity: 1
+            opacity: 0.9,
+            emissive: WINE_COLOR,
+            emissiveIntensity: 0.3
           });
           const arrow = new THREE.Mesh(arrowGeometry, arrowMaterial);
           
@@ -318,11 +339,15 @@
             const normalizedWidth = (weight / maxTarget) * 0.2 + 0.08;
             
             const path = new THREE.LineCurve3(sourceNode.position, targetNode.position);
-            const tubeGeometry = new THREE.TubeGeometry(path, 1, normalizedWidth, 8, false);
-            const material = new THREE.MeshBasicMaterial({ 
-              color: 0x44ff44,
+            const tubeGeometry = new THREE.TubeGeometry(path, 16, normalizedWidth, 12, false);
+            const material = new THREE.MeshStandardMaterial({ 
+              color: 0x722f4d,
+              metalness: 0.6,
+              roughness: 0.25,
               transparent: true,
-              opacity: 0.6
+              opacity: 0.5,
+              emissive: 0x722f4d,
+              emissiveIntensity: 0.25
             });
             
             const tube = new THREE.Mesh(tubeGeometry, material);
@@ -337,11 +362,15 @@
             );
             
             const arrowSize = 0.5 + (weight / maxTarget) * 0.8;
-            const arrowGeometry = new THREE.ConeGeometry(arrowSize, arrowSize * 2, 8);
-            const arrowMaterial = new THREE.MeshBasicMaterial({ 
-              color: 0x44ff44,
+            const arrowGeometry = new THREE.ConeGeometry(arrowSize, arrowSize * 2, 12);
+            const arrowMaterial = new THREE.MeshStandardMaterial({ 
+              color: 0x722f4d,
+              metalness: 0.7,
+              roughness: 0.2,
               transparent: true,
-              opacity: 0.8
+              opacity: 0.8,
+              emissive: 0x722f4d,
+              emissiveIntensity: 0.35
             });
             const arrow = new THREE.Mesh(arrowGeometry, arrowMaterial);
             arrow.position.copy(arrowPos);
@@ -428,7 +457,6 @@
         info += `Type: Distortion<br>`;
         info += `Occurrences: <span class="metric">${occurrences}</span><br>`;
         
-        // Show co-occurrences
         const coOccurs = graphData.global_graph.edges
           .filter(e => (e.source === node.id || e.target === node.id) && e.edge_type === 'co_occurs')
           .sort((a, b) => b.weight - a.weight)
@@ -457,7 +485,7 @@
 
     function highlightConnections(nodeId) {
       nodes.forEach(n => {
-        n.material.emissiveIntensity = n.userData.type === 'intervention' ? 0.5 : 0.4;
+        n.material.emissiveIntensity = n.userData.type === 'intervention' ? 0.3 : 0.2;
         n.material.opacity = 0.3;
       });
       
@@ -467,7 +495,7 @@
 
       const selected = nodes.find(n => n.userData.id === nodeId);
       if (selected) {
-        selected.material.emissiveIntensity = 1;
+        selected.material.emissiveIntensity = 0.8;
         selected.material.opacity = 1;
       }
 
@@ -479,47 +507,11 @@
                              edge.userData.targetId : edge.userData.sourceId;
           const connectedNode = nodes.find(n => n.userData.id === connectedId);
           if (connectedNode) {
-            connectedNode.material.emissiveIntensity = 0.8;
+            connectedNode.material.emissiveIntensity = 0.6;
             connectedNode.material.opacity = 1;
           }
         }
       });
-    }
-
-    function resetCamera() {
-      camera.position.set(0, 0, 70);
-      scene.rotation.set(0, 0, 0);
-      
-      nodes.forEach(n => {
-        n.material.emissiveIntensity = n.userData.type === 'intervention' ? 0.5 : 0.4;
-        n.material.opacity = 1;
-      });
-      edges.forEach(e => {
-        const isTarget = e.userData.edge_type === 'targets' || e.userData.edge_type === 'addresses';
-        const isCoOccur = e.userData.edge_type === 'co_occurs';
-        if (isCoOccur) {
-          const maxCoOccur = Math.max(...graphData.global_graph.edges.filter(gE => gE.edge_type === 'co_occurs').map(gE => gE.weight || 1), 1);
-          const weight = e.userData.weight || 1;
-          const opacity = 0.5 + (weight / maxCoOccur) * 0.4; 
-          e.material.opacity = opacity;
-        } else if (isTarget) {
-           e.material.opacity = 0.6;
-        }
-      });
-    }
-
-    function toggleLabels() {
-      showLabels = !showLabels;
-      if (graphData) loadGlobalGraph();
-    }
-
-    function toggleHighlight() {
-      highlightMode = !highlightMode;
-      const btn = document.getElementById('highlightBtn');
-      btn.textContent = `Highlight Mode: ${highlightMode ? 'ON' : 'OFF'}`;
-      btn.classList.toggle('active');
-      
-      if (!highlightMode) resetCamera();
     }
 
     function showDistortionsOnly() {
@@ -532,7 +524,6 @@
       scene.rotation.y += 0.001;
       
       nodes.forEach((node) => {
-
         if (node.userData.type === 'intervention' && node.userData.avg_improvement > 0.4) {
           const pulse = Math.sin(Date.now() * 0.002) * 0.15;
           node.scale.set(1 + pulse, 1 + pulse, 1 + pulse);

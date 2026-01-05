@@ -138,11 +138,6 @@ Return ONLY the journal entry text, no preamble."""
         return None
 
 def extract_distortions_from_entry(entry_text: str, expected_severity: float) -> dict:
-    """
-    Extract distortions from the generated entry
-    Reuses the extraction function from Step 1
-    """
-    
     prompt = f"""Analyze this journal entry for cognitive distortions.
 
 Entry: "{entry_text}"
@@ -184,15 +179,8 @@ Return JSON:
         return {"distortions": [], "measured_severity": expected_severity}
 
 def generate_user_journey(base_statement: dict, entries_per_week: int = 2) -> dict:
-    """
-    Generate complete longitudinal journey for one user
-    """
-    
     profile = generate_user_profile(base_statement)
     journey = JOURNEY_TEMPLATES[profile['journey_type']]
-    
-    print(f"\n👤 Generating journey for {profile['user_id']}")
-    print(f"   Type: {profile['journey_type']} ({journey['duration_weeks']} weeks)")
     
     entries = []
     
@@ -240,22 +228,16 @@ def generate_synthetic_cohort(
     entries_per_week: int = 2
 ) -> list:
 
-    print(f"🔬 Generating synthetic cohort: {num_users} users")
-
     sampled = base_statements_df.sample(n=num_users, random_state=42)
     
     all_journeys = []
     
     for idx, row in tqdm(sampled.iterrows(), total=num_users, desc="Generating journeys"):
-        
-        # Convert row to dict
+    
         base_statement = row.to_dict()
-        
-        # Generate journey
+    
         journey = generate_user_journey(base_statement, entries_per_week)
         all_journeys.append(journey)
-        
-        # Save progress
         if (idx + 1) % 10 == 0:
             with open('synthetic_journeys_progress.json', 'w') as f:
                 json.dump(all_journeys, f, indent=2)
@@ -263,9 +245,6 @@ def generate_synthetic_cohort(
     return all_journeys
 
 def analyze_synthetic_cohort(journeys: list):
-
-    print("\n📊 SYNTHETIC COHORT ANALYSIS:")
-    print(f"Total users: {len(journeys)}")
     
     journey_types = {}
     for j in journeys:
@@ -288,30 +267,19 @@ def analyze_synthetic_cohort(journeys: list):
     print(f"Average per user: {total_entries/len(journeys):.1f}")
 
 if __name__ == "__main__":
- 
-    print("\n📂 Loading labeled dataset...")
     df_labeled = pd.read_json('dataset_with_distortions.json')
     
     df_with_distortions = df_labeled[df_labeled['distortion_count'] > 0]
     print(f"Found {len(df_with_distortions)} statements with distortions")
-    
-    print("\n⚠️  Starting with 10 users for testing. Adjust for full cohort.")
     
     journeys = generate_synthetic_cohort(
         base_statements_df=df_with_distortions,
         num_users=10, 
         entries_per_week=2
     )
-    
 
     output_file = 'synthetic_longitudinal_data.json'
     with open(output_file, 'w') as f:
         json.dump(journeys, f, indent=2)
-    
-    print(f"\n✅ Saved to {output_file}")
-    
 
     analyze_synthetic_cohort(journeys)
-    
-    print("\n✅ Synthetic data generation complete!")
-    print("\nNext step: Build graph structures from this data")

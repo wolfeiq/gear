@@ -138,16 +138,12 @@ If NO distortions found, return: {{"distortions": [], "overall_severity": 0.0, "
         return {"distortions": [], "overall_severity": 0.0, "primary_distortion": None}
 
 def process_dataset(input_csv: str, output_json: str, sample_size: int = None):
-    
-    print("📂 Loading dataset...")
    
     df = pd.read_csv(input_csv)
     
     df = df[df['status'].isin(['Depression', 'Anxiety', 'Stress'])]
     df = df[df['statement'].str.len() > 100]
     df = df.sample(n=500, random_state=42)
-    
-    print(f"Processing {len(df)} statements...")
     
     results = []
     
@@ -182,10 +178,9 @@ def process_dataset(input_csv: str, output_json: str, sample_size: int = None):
     df_csv = df_labeled.copy()
     df_csv['distortions'] = df_csv['distortions'].apply(json.dumps)
     df_csv.to_csv(output_json.replace('.json', '.csv'), index=False)
+
     
-    print(f"\n✅ Saved to {output_json}")
-    
-    print("\n📊 EXTRACTION STATISTICS:")
+    print("\nEXTRACTION STATISTICS:")
     print(f"Total statements: {len(df_labeled)}")
     print(f"Statements with distortions: {(df_labeled['distortion_count'] > 0).sum()}")
     print(f"Average distortions per statement: {df_labeled['distortion_count'].mean():.2f}")
@@ -221,24 +216,16 @@ def quick_analysis(df: pd.DataFrame):
     plt.tight_layout()
     plt.savefig('distortions_by_status.png')
     
-    print("\n📈 Visualizations saved!")
 
 if __name__ == "__main__":
     INPUT_FILE = "kaggle_mental_health.csv"
     OUTPUT_FILE = "dataset_with_distortions.json"
-    
-    print("🚀 Starting distortion extraction pipeline...")
-    print("⚠️  Starting with 100 samples for testing. Adjust sample_size for full run.")
+
     
     df_labeled = process_dataset(
         input_csv=INPUT_FILE,
         output_json=OUTPUT_FILE,
-        sample_size=100  # Remove this for full dataset
+        sample_size=100
     )
-    
 
     quick_analysis(df_labeled)
-    
-    print("\n✅ Pipeline complete!")
-    print(f"📁 Output: {OUTPUT_FILE}")
-    print("\nNext step: Generate synthetic longitudinal data")
