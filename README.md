@@ -9,8 +9,8 @@ GeAR applies graph-enhanced retrieval to mental health, mapping cognitive distor
 - Retrieves interventions based on graph topology similarity, not just semantic matching
 - Visualizes networks in interactive 3D (distortions + interventions + effectiveness)
 
-What is Cascading?
-Refers to the process when one distorted, irrational thought triggers a chain reaction, leading to a sequence of other negative thoughts, emotions, and ultimately, maladaptive behaviors or self-defeating conclusions. So: one cognitive distortion like all-or-nothing thinking leads the patient or client to fall into the trap of experiencing other cognitive distortions (with different likelihoods as visualized here), such as fortune telling or catastraphizing.
+**What is Cascading?**
+- Refers to the process when one distorted, irrational thought triggers a chain reaction, leading to a sequence of other negative thoughts, emotions, and ultimately, maladaptive behaviors or self-defeating conclusions. So: one cognitive distortion like all-or-nothing thinking leads the patient or client to fall into the trap of experiencing other cognitive distortions (with different likelihoods as visualized here), such as fortune telling or catastraphizing.
 
 1. **Data Pipeline**: Kaggle mental health dataset → distortion extraction → synthetic longitudinal generation
 2. **Graph Layer**: Personal graphs (per-user networks) + Global graph (population patterns) + Intervention graph (what targets what)
