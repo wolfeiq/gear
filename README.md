@@ -40,4 +40,4 @@ Clearly, I didn't process and extract cognitive distortions from each statement 
 
 ![Graph Visuals](assets/screenshot.png)
 ![Distortions](assets/distortion_distribution.png)
-![Mental Health](assets/distortion_by_status.png)
+![Mental Health](assets/distortions_by_status.png)
